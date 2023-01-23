@@ -111,5 +111,6 @@ font-size: 23px;
 }
 
 a {
-color: #ffa64d;
+/* color: #ffa64d; */
+color: steelblue;
 }
