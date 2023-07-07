@@ -1,0 +1,49 @@
+baseURL: ""
+languageCode: en-us
+title: George Paps Blog
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: Hi there, welcome!
+    Content: My name is Georgios Papazotos and this is my personal blog. 
+  
+  cover:
+    linkFullImages: true 
+
+  ShowBreadcrumbs: true 
+  ShowReadingTime: true 
+  ShowShareButtons: true 
+  # ShowPostNavLinks: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true 
+
+  socialIcons: # optional
+      # - name: goodreads
+      #   url: "https://www.goodreads.com/user/show/57632803-george-paps"
+      # - name: instagram
+      #   url: "https://www.linkedin.com/in/georgepapz/"
+      - name: github
+        url: "https://github.com/GeorgePaps/"
+      - name: twitter
+        url: "https://github.com/GeorgePaps/"
+      # - name: linkedin
+      #   url: "https://www.linkedin.com/in/georgepapz/"
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20 # used for the order
+    - identifier: archives
+      name: Archive 
+      url: /archives/
+      weight: 10 # used for the order
+
+
