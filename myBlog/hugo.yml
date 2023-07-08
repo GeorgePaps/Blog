@@ -11,6 +11,10 @@ params:
   
   cover:
     linkFullImages: true 
+  
+  # mainSections:
+  #   - writings
+  #   - bookReviews
 
   ShowBreadcrumbs: true 
   ShowReadingTime: true 
@@ -28,7 +32,7 @@ params:
       - name: github
         url: "https://github.com/GeorgePaps/"
       - name: twitter
-        url: "https://github.com/GeorgePaps/"
+        url: "https://twitter.com/PapazotosG"
       # - name: linkedin
       #   url: "https://www.linkedin.com/in/georgepapz/"
 
