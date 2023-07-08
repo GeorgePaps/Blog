@@ -33,6 +33,8 @@ params:
         url: "https://github.com/GeorgePaps/"
       - name: twitter
         url: "https://twitter.com/PapazotosG"
+      # - name: kofi
+        # url: "https://twitter.com/PapazotosG"
       # - name: linkedin
       #   url: "https://www.linkedin.com/in/georgepapz/"
 
