@@ -1,5 +1,5 @@
 ---
-title: "Gödel, Escher, Bach - Book Review"
+title: "Book Review - Gödel, Escher, Bach"
 date: 2023-04-16
 draft: false
 ShowToc: false

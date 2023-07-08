@@ -1,14 +1,15 @@
 ---
-title: "Walk your walk"
+title: "Walk your walk - Draft"
 date: 2023-07-08T12:06:29+03:00
 draft: false
 tags: ["life"]
 categories: ["life","thoughts"]
 ---
 
+<!--  0  -->
 A phrase I 've been pondering on for some time now is "walk your walk".
 I found that keeping this phrase handy is useful for my mentality
-and in this essay I will share my two interpretation of it. 
+and in this essay I will share my two interpretations of it. 
 
 The first interpretation relates to personal goal setting. 
 The phrase works as a reminder to keep going,
