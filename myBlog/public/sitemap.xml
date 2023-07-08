@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://georgepaps.pages.dev/</loc>
     <lastmod>2023-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/bookreviews/geb/</loc>
+    <loc>https://georgepaps.pages.dev/posts/bookreviews/geb/</loc>
     <lastmod>2023-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://georgepaps.pages.dev/posts/</loc>
     <lastmod>2023-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://georgepaps.pages.dev/categories/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/writings/just_write/</loc>
+    <loc>https://georgepaps.pages.dev/posts/writings/just_write/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/life/</loc>
+    <loc>https://georgepaps.pages.dev/tags/life/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/life/</loc>
+    <loc>https://georgepaps.pages.dev/categories/life/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://georgepaps.pages.dev/tags/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/thoughts/</loc>
+    <loc>https://georgepaps.pages.dev/categories/thoughts/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://georgepaps.pages.dev/archives/</loc>
   </url>
 </urlset>

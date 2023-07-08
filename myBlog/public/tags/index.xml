@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on George Paps Blog</title>
-    <link>/tags/</link>
+    <link>https://georgepaps.pages.dev/tags/</link>
     <description>Recent content in Tags on George Paps Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>life</title>
-      <link>/tags/life/</link>
+      <link>https://georgepaps.pages.dev/tags/life/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/life/</guid>
+      <guid>https://georgepaps.pages.dev/tags/life/</guid>
       <description></description>
     </item>
     

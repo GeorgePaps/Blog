@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on George Paps Blog</title>
-    <link>/posts/</link>
+    <link>https://georgepaps.pages.dev/posts/</link>
     <description>Recent content in Posts on George Paps Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gödel, Escher, Bach - Book Review</title>
-      <link>/posts/bookreviews/geb/</link>
+      <link>https://georgepaps.pages.dev/posts/bookreviews/geb/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/bookreviews/geb/</guid>
+      <guid>https://georgepaps.pages.dev/posts/bookreviews/geb/</guid>
       <description>Traces of intelligence. Rating: 6/10
 In this book the author attempts to formally approach consciousness and to unravel the mysteries of its emergence. An arguably ambitious goal. Surprisingly, what you come to realize throughout the book, is that to some extend, he succeeds. His concept of convoluted, multi-level strange loops seems to offer an interesting leeway towards the origins of consciousness. Maybe not the only available, nor the most effective, but nevertheless a viable one.</description>
     </item>
     
     <item>
       <title>Just Write</title>
-      <link>/posts/writings/just_write/</link>
+      <link>https://georgepaps.pages.dev/posts/writings/just_write/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/writings/just_write/</guid>
+      <guid>https://georgepaps.pages.dev/posts/writings/just_write/</guid>
       <description>Find a system that makes writing and re-writing effortless. You don&amp;rsquo;t have to post everything you write, but it&amp;rsquo;s good to write consistently.
 Why do that in the first place though? Because writing is an effective way of thinking. When writing your embark on a mental journey towards unexplored paths. A journey where you both explore and expand your thoughts. And this is an invaluable process hardly accessible by other means.</description>
     </item>
