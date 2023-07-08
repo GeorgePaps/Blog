@@ -6,7 +6,7 @@ theme: PaperMod
 params:
   homeInfoParams:
     Title: Hi there, welcome!
-    Content: My name is Georgios Papazotos and this is my personal blog. 
+    Content: My name is Georgios Papazotos and this is my personal blog. # Feel free to contact me at georgezpaps@protonmail.com.
   
   cover:
     linkFullImages: true 
