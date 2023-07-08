@@ -1,4 +1,5 @@
 baseURL: "https://georgepaps.pages.dev"
+# baseURL: ""
 languageCode: en-us
 title: George Paps Blog
 theme: PaperMod

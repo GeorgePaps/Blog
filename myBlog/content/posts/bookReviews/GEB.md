@@ -1,8 +1,10 @@
 ---
 title: "Gödel, Escher, Bach - Book Review"
 date: 2023-04-16
-draft: False
+draft: false
 ShowToc: false
+tags: ["book reviews"]
+categories: ["book reviews","thoughts"]
 ---
 
 ## Traces of intelligence.
