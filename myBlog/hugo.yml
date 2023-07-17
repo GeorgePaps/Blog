@@ -7,8 +7,14 @@ theme: PaperMod
 params:
   homeInfoParams:
     Title: Welcome :)
-    Content: My name is Georgios Papazotos and this is my personal blog. I write mostly about programming and life. I have a background in mechanical engineering (diploma), economics and finance (mSc) and now I am focusing on developing my programming and computer science skills. 
-  # A rather meandering path. 
+    Content: > 
+            Hello! My name is Georgios Papazotos and this is my personal blog.
+             
+            I write mostly about programming and life. I am currently living in Athens, Greece. 
+            
+            
+            Feel free to reach me at georgezpaps@protonmail.com
+
   favicon: "assets/favicon.io"
   cover:
     linkFullImages: true 
