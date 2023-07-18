@@ -27,34 +27,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
@@ -84,10 +56,6 @@
 <body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -122,18 +90,13 @@
         </div>
         <ul id="menu">
             <li>
+                <a href="https://georgepaps.pages.dev/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://georgepaps.pages.dev/archives/" title="Archive">
                     <span>Archive</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://georgepaps.pages.dev/tags/" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://georgepaps.pages.dev/categories/" title="Categories">
-                    <span>Categories</span>
                 </a>
             </li>
             <li>
@@ -150,6 +113,19 @@
     Posts
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Books read 2023
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In case you need some reading ideas, here is a list of the books I’ve read thus far in 2023:
+Leonardo Da Vinci by Walter Isaacson - Currently Reading Bobby Fischer Teaches Chess by Bobby Fischer, Stuart Margulies, Don Mosenfelder - 7/10 1Q84 (All 3 parts) by Haruki Murakami - 7/10 Gödel, Escher, Bach by Douglas R. Hofstadter - 6/10 Steve Jobs by Walter Isaacson - 9/10 The music of the primes by Marcus du Sautoy - 7/10 </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-07-18 19:42:13 +0300 EEST'>July 18, 2023</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Books read 2023" href="https://georgepaps.pages.dev/posts/posts/books2023/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
