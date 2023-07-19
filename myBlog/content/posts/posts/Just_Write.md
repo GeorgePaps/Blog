@@ -3,7 +3,7 @@ title: "Just Write"
 date: 2023-02-26
 draft: false
 ShowToc: false
-tags: ["life"]
+tags: ["life","small thoughts"]
 categories: ["life","thoughts"]
 ---
 

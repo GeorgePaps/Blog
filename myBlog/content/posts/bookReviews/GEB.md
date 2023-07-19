@@ -15,7 +15,7 @@ In this book the author attempts to formally approach consciousness and to unrav
 An arguably ambitious goal. 
 Surprisingly, 
 what you come to realize throughout the book,
-is that to some extend,
+is that to some extend
 he succeeds.
 His concept of convoluted,
 multi-level strange loops seems to 
@@ -29,20 +29,20 @@ this book feels quite long
 and more complicated than necessary.
 Additionally, the multiple lenses (music-Bach, paintings-Escher, logic-Gödel) 
 he uses to approach the main topic 
-are interesting but at times too much.
+are interesting, but at times too much.
 Finally, the dialogues also feel rather unnecessary.
 
 Considering that these downsides make the book quite tough to read at times,
-I am not sure whether I would recommend it to many people.
+I am not sure whether I would recommend to most people.
 Maybe to those interested in the theoretical underpinnings and the history
 of the field of artificial intelligence and computer science in general.
 
 Overall it feels like a strong mind is pushing towards a slightly wrong direction.
-You cannot tell where exactly the right one is 
+You cannot tell where exactly the right one is, 
 but you get a nagging feeling throughout the book that something is off.
 Nevertheless there are gains towards the right direction.
-But like a force applied to a direction other than the moving one of an object 
-you utilize only a fraction of it. 
+But like a force applied to a direction other than the one an object moves,
+only a fraction of it is utilized.  
 
 <!-- pg 709
 I think the following passage from pg 709 might offer some glimpses 

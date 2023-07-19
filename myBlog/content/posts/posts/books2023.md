@@ -2,11 +2,12 @@
 title: "Books read 2023"
 date: 2023-07-18T19:42:13+03:00
 draft: false
+tags: ["books"]
 ---
 
 In case you need some reading ideas, 
 here is a list of the books I've read thus far in 2023.
-I have highlighted my favorite ones. 
+I have highlighted my favorite ones.
 
 - *Leonardo Da Vinci* by Walter Isaacson - Currently Reading 
 - *Bobby Fischer Teaches Chess* by Bobby Fischer, Stuart Margulies, Don Mosenfelder - 7/10

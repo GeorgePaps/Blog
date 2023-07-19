@@ -6,7 +6,16 @@
     <description>Recent content in Tags on George Paps Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jul 2023 12:06:29 +0300</lastBuildDate><atom:link href="https://georgepaps.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jul 2023 19:42:13 +0300</lastBuildDate><atom:link href="https://georgepaps.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>books</title>
+      <link>https://georgepaps.pages.dev/tags/books/</link>
+      <pubDate>Tue, 18 Jul 2023 19:42:13 +0300</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/tags/books/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>life</title>
       <link>https://georgepaps.pages.dev/tags/life/</link>
@@ -22,6 +31,15 @@
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://georgepaps.pages.dev/tags/book-reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>small thoughts</title>
+      <link>https://georgepaps.pages.dev/tags/small-thoughts/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/tags/small-thoughts/</guid>
       <description></description>
     </item>
     
