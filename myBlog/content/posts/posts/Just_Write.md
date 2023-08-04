@@ -13,7 +13,7 @@ but it's good to write consistently.
 
 Why do that in the first place though?
 Because writing is an effective way of thinking.
-When writing your embark on a mental journey towards unexplored paths.
+When writing you embark on a mental journey towards unexplored paths.
 A journey where you both explore and expand your thoughts. 
 And this is an invaluable process hardly accessible by other means.  
 
