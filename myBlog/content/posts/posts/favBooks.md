@@ -26,7 +26,7 @@ Non-fiction:
 8) Steve Jobs - Walter Isaacson 
 9) Thinking, Fast and Slow - Daniel Kahneman
 10) Benjamin Franklin: An American Life - Walter Isaacson 
-11) Why We Do What We Do: - Edward Deci
+11) Why We Do What We Do - Edward Deci
 12) The Obstacle Is the way - Ryan Holiday
 13) Stillness is the key - Ryan Holiday
 14) Ego is the enemy - Ryan Holiday
