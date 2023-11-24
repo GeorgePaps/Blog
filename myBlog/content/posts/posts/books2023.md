@@ -5,13 +5,14 @@ draft: false
 tags: ["books"]
 ---
 
-In case you need some reading ideas, 
+In case you need some reading inspiration, 
 here is a list of the books I've read thus far in 2023.
 I have highlighted my favorite ones.
 
+- *Clear Thinking* Shane Parrish - 6/10
 - **The Comfort Crisis by Michael Easter** - 8/10 
 - *Xenakis* by Nouritza Matossian - 7/10 
-- **Benjamin Franklin by Walter Isaacson** - 89/10 
+- **Benjamin Franklin by Walter Isaacson** - 8/10 
 - *100 Baggers: Stocks That Return 100-to-1 and How To Find Them* by Christopher W. Mayer - 6/10 
 - **Leonardo Da Vinci by Walter Isaacson** - 8/10 
 - *Bobby Fischer Teaches Chess* by Bobby Fischer, Stuart Margulies, Don Mosenfelder - 7/10

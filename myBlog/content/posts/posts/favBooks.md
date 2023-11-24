@@ -10,9 +10,7 @@ tags: ["books"]
 
 
 The past years I've read a couple of books.
-While most of them are interesting,
-a handful of them stood out.
-The ones I liked the most are:
+The ones I enjoyed the most are:
 
 Non-fiction:
 

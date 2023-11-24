@@ -16,5 +16,6 @@ I have a background in mechanical engineering (diploma) and engineering and poli
 The last two years I've been working at EY Greece on a variety of projects   
 mostly as a python developer and as a data engineer/analyst. 
 In my free time, aside from socializing,
-I enjoy reading, playing music, and writing amongst other things.
+I enjoy reading, playing music, 
+and writing amongst other things.
 
