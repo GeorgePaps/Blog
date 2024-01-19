@@ -8,7 +8,7 @@ ShowToc: false
 Hello and welcome to my personal blog.
 
 My name is Georgios Papazotos and I live in Athens, Greece.
-I write mostly about programming and life.
+I write mostly about programming, music, and life.
 
 I have a background in mechanical engineering (diploma) and engineering and policy analysis (MSc). 
 Τhe past years I am focusing on developing my programming and computer science skills.

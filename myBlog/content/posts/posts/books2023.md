@@ -1,15 +1,17 @@
 ---
 title: "Books read 2023"
-date: 2023-09-25T17:54:44+03:00
+date: 2023-12-23T17:54:44+03:00
 draft: false
 tags: ["books"]
 ---
 
 In case you need some reading inspiration, 
-here is a list of the books I've read thus far in 2023.
+here is a list of the books I've read in 2023.
 I have highlighted my favorite ones.
 
-- *Clear Thinking* Shane Parrish - 6/10
+- *American Pastoral* by Philip Roth - 6/10
+- *Les Miserables* by Victor Hugo - 7/10
+- *Clear Thinking* by Shane Parrish - 6/10
 - **The Comfort Crisis by Michael Easter** - 8/10 
 - *Xenakis* by Nouritza Matossian - 7/10 
 - **Benjamin Franklin by Walter Isaacson** - 8/10 
