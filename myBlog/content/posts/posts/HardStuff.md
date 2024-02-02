@@ -8,9 +8,8 @@ categories: ["life","thoughts"]
 ---
 
 My mechanical engineering diploma and my MSc required a lot of effort.
-Many times effort beyond ...
-
-<!-- As for my system, 
-currently I just use a terminal with micro editor. 
-Its simple GUI offers minimal distractions
-and is available within a few key strokes.     -->
+At times effort that pushed me to my very limits, 
+physically and mentally.
+Regardless of whether I would suggest to anyone to reach limits like that, they are not even that extreme.
+There were some useful lesson learned at that times.
+One specific I want to focus now is...
