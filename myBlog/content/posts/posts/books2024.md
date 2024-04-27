@@ -9,6 +9,7 @@ In case you need some reading inspiration,
 here is a list of the books I've read thus far in 2024.
 I have highlighted my favorite ones.
 
+- **Total Recall: My Unbelievably True Life Story by Arnold Schwarzenegger** - 8/10 
 - **The Creative Act: A Way of Being by Rick Rubin** - 9/10
 - **Atomic Habits by James Clear** - 8/10
 - **Heart of Darkness by Joseph Conrad** - 9/10
