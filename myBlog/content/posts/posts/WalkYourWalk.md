@@ -1,7 +1,7 @@
 ---
 title: "Walk your walk"
 date: 2023-08-04T12:13:29+03:00
-draft: false
+draft: true
 tags: ["life"]
 categories: ["life","thoughts"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Just Write"
 date: 2023-02-26
-draft: false
+draft: true
 ShowToc: false
 tags: ["life","small thoughts"]
 categories: ["life","thoughts"]
