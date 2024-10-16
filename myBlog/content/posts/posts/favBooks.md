@@ -25,9 +25,9 @@ Non-fiction:
 9) Thinking, Fast and Slow - Daniel Kahneman
 10) Benjamin Franklin: An American Life - Walter Isaacson 
 11) Why We Do What We Do - Edward Deci
-12) The Obstacle Is the way - Ryan Holiday
-13) Stillness is the key - Ryan Holiday
-14) Ego is the enemy - Ryan Holiday
+12) The Obstacle Is the Way - Ryan Holiday
+13) Stillness is the Key - Ryan Holiday
+14) Ego is the Enemy - Ryan Holiday
 15) Mastery - Robert Greene 
 16) The Comfort Crisis - Michael Easter
 17) Why Nations Fail - Daron Acemoglu 
@@ -35,16 +35,16 @@ Non-fiction:
 19) 21 Lessons for the 21st Century - Yuval Noah Harari
 20) Sapiens: A Brief History of Humankind - Yuval Noah Harari
 21) Essentialism - Greg McKeown
-22) The art of the good life - Rolf Dobelli
+22) The Art of the Good Life - Rolf Dobelli
 23) The Pathless Path - Paul Millerd
 
 Fiction:
 
-1) The count of Monte Cristo - Alexandre Dumas
-2) One hundred years of solitude - Gabriel Garcia Marquez
+1) The Count of Monte Cristo - Alexandre Dumas
+2) One Hundred Years of Solitude - Gabriel Garcia Marquez
 3) Norwegian Wood - Haruki Murakami
 4) Laughable Loves - Milan Kundera
-5) Le Club des incorrigibles optimistes - Jean-Michel Guenassia 
+5) Le Club des Incorrigibles Optimistes - Jean-Michel Guenassia 
 6) The Unbearable Lightness of Being - Milan Kundera 
 7) Love in the Time of Cholera - Gabriel Garcia Marquez
 8) 4 3 2 1 - Paul Auster
