@@ -6,7 +6,17 @@
     <description>Recent content on George Paps Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2024 17:54:44 +0300</lastBuildDate><atom:link href="https://georgepaps.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mitochondrial Eve</title>
+      <link>https://georgepaps.pages.dev/posts/posts/mitochondrialeve/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/mitochondrialeve/</guid>
+      <description>I recently finished Gene by Siddhartha Mukherjee, a long but rather delightful read. In this book the author follows humanity&amp;rsquo;s journey towards unravelling the mysteries of genetics.
+Among the many fascinating topics explored in the book, one that captured my imagination is that of Mitochondrial Eve. This exotically named concept is based on two simple propositions. The first is that all modern humans can trace their lineage back to a single female ancestor1.</description>
+    </item>
+    
     <item>
       <title>Books read 2024</title>
       <link>https://georgepaps.pages.dev/posts/posts/books2024/</link>
@@ -55,9 +65,8 @@ In this book the author attempts to formally approach consciousness and to unrav
       
       <guid>https://georgepaps.pages.dev/about/</guid>
       <description>Hello and welcome to my personal blog.
-My name is Georgios Papazotos and I live in Athens, Greece.
-I have a background in mechanical engineering (diploma) and engineering and policy analysis (MSc). Τhe past years I am focusing on developing my programming and computer science skills. The last three years I&amp;rsquo;ve been working at EY Greece on a variety of projects
-mostly as a python developer and as a data engineer/analyst.</description>
+My name is Georgios Papazotos and I currently live in Athens, Greece.
+I have a background in mechanical engineering (diploma) and engineering and policy analysis (MSc). In the past few years I am focusing on developing my programming and computer science skills. For the last three years I&amp;rsquo;ve been working at EY Greece on a variety of projects, mostly as a python developer and as a data engineer/analyst.</description>
     </item>
     
     
