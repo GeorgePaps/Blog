@@ -30,9 +30,11 @@ params:
       #   url: "https://www.goodreads.com/user/show/57632803-george-paps"
       # - name: instagram
       #   url: "https://www.linkedin.com/in/georgepapz/"
-      # - name: github
-      #   url: "https://github.com/GeorgePaps/"
-      # - name: twitter
+      - name: github
+        url: "https://github.com/GeorgePaps/"
+      # # - name: twitter
+      #   url: "https://twitter.com/PapazotosG"
+      # - name: bluesky
       #   url: "https://twitter.com/PapazotosG"
       # - name: kofi
         # url: "https://ko-fi.com/georgiospapazotos"
