@@ -6,9 +6,10 @@ tags: ["books"]
 ---
 
 In case you need some reading inspiration, 
-here is a list of the books I've read thus far in 2024.
+here is a list of the books I read in 2024.
 I have highlighted my favorite ones.
 
+- **"On Writing: A Memoir of the Craft"** by Stephen King - 8/10
 - **"Outlive: The Science and Art of Longevity"** by Peter Attia - 8/10
 - **"Slow Productivity: The Lost Art of Accomplishment Without Burnout"** by Cal Newport - 8/10
 - **"The Gene: An Intimate History"** by Siddhartha Mukherjee - 9/10 
