@@ -5,12 +5,11 @@ draft: false
 tags: ["books"]
 ---
 
-I've pledged to read 20 books in 2025.
-Let's see how that goes.
-This is the list of the books I've read thus far.
-I have highlighted my favorite ones.
-My favorite till now is Sapiens, an amazing book. 
-Totally recommend it.
+To keep up with my reading habit,
+I pledged to read 20 books in 2025.
+Here follows the list of books I've read thus far,
+the ones with bold are my favorites.
+Hope you'll find some interesting book ideas.
 
 - **"Sapiens: A Brief History of Humankind"** by Yuval Noah Harari - 10/10
 
