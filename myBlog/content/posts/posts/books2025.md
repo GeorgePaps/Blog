@@ -1,6 +1,6 @@
 ---
 title: "Books read 2025"
-date: 2025-03-07T10:54:44+03:00
+date: 2025-04-04T10:54:44+03:00
 draft: false
 tags: ["books"]
 ---
@@ -12,9 +12,11 @@ the ones with bold are my favorites.
 Hope you'll find some interesting book ideas.
 
 
-- Wool Omnibus by *Howey Hugh* -  Currently Reading
-
 - Nexus by *Yuval Noah Harari* -  Currently Reading 
+
+- One Up on Wall Street by *Peter Lynch* - 6/10 
+
+- Wool Omnibus by *Howey Hugh* -  - 6/10 [^1]
 
 - The Magic Circle by *Katherine Neville* - 7/10
 
@@ -23,6 +25,5 @@ Hope you'll find some interesting book ideas.
 - **"Sapiens: A Brief History of Humankind"** by Yuval Noah Harari - 10/10
 
 - Police by *Jo Nesbo* - 6/10
-    
-    <!-- Fun book with good pace. Wasn't amazed by the plot.   -->
-    
+
+[^1]: Apple TV series SILO is based on this book. I liked the series more.
