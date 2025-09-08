@@ -7,13 +7,12 @@ ShowToc: false
 
 Hello and welcome to my personal blog.
 
-My name is Georgios Papazotos and I currently live in Athens, Greece.
-<!-- I write mostly about programming, music, and life. -->
-
+I live in Athens, Greece.
 I have a background in mechanical engineering (diploma - AUTH) and engineering and policy analysis (MSc - TU Delft). 
-This period I am focusing on developing my programming and computer science skills.
-For the last three years I've been working at EY Greece on a variety of projects, mostly as a python developer and as a data engineer/analyst. 
-In my free time, aside from socializing,
-I enjoy reading, playing chess, playing music, running, 
+For the last 4 years I've been working at EY Greece on a variety of projects, mostly as a python developer and as a data engineer. 
+Currently I am also focusing on developing my machine learning and computer vision skills in particular.
+
+
+In my free time
+I enjoy reading, playing music, running, 
 and writing amongst other things.
-I am spending some time also doing stock research, I am trying to minimize/automate that though.
