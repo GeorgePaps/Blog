@@ -8,6 +8,8 @@ params:
 
   ShowCover: true
 
+  math: true
+
   homeInfoParams:
     Title: Welcome :)
     Content: > 

@@ -7,7 +7,7 @@ tags: []
 categories: ["Computer Vision","Machine Learning"]
 ---
 
-# Glimpses in Computer Vision (In Progress)
+<!-- # Glimpses in Computer Vision (In Progress) -->
 
 This essay outlines some major developments in the field of computer vision, 
 starting from Perceptron up to more recent developments like EfficientNet. 
