@@ -3,6 +3,7 @@ title: "Glimpses in Computer Vision"
 date: 2025-09-09
 draft: false
 ShowToc: false
+math: true
 tags: []
 categories: ["Computer Vision","Machine Learning"]
 ---
@@ -13,6 +14,11 @@ This essay outlines some major developments in the field of computer vision,
 starting from Perceptron up to more recent developments like EfficientNet. 
 
 ## Perceptron (1957)
+
+
+$$
+E = mc^2
+$$
 
 <!-- - Rosenblatt [1957].
 - **Key Contribution**: Learn weights step by step.
