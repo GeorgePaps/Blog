@@ -5,6 +5,9 @@ title: George Paps Blog
 theme: PaperMod
 
 params:
+
+  ShowCover: true
+
   homeInfoParams:
     Title: Welcome :)
     Content: > 
@@ -13,9 +16,10 @@ params:
              
             Feel free to reach me at georgezpaps@protonmail.com
 
-  favicon: "assets/favicon.io"
   cover:
-    linkFullImages: true 
+    linkFullImages: true
+
+  favicon: "assets/favicon.io"
   
   defaultTheme: light
   ShowBreadcrumbs: true 
