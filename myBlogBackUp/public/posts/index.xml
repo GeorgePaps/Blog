@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on George Paps Blog</title>
+    <link>https://georgepaps.pages.dev/posts/</link>
+    <description>Recent content in Posts on George Paps Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glimpses in Computer Vision</title>
+      <link>https://georgepaps.pages.dev/posts/posts/computervision1/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/computervision1/</guid>
+      <description>This essay outlines some major developments in the field of computer vision, starting from Perceptron up to more recent developments like EfficientNet.
+Perceptron (1957) Our journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived of Perceptron, the earliest and simplest type of artificial neural network. Its functionality is straightforward: given a set of inputs and based on some calculations it outputs 0 or 1.</description>
+    </item>
+    
+    <item>
+      <title>Books read 2025</title>
+      <link>https://georgepaps.pages.dev/posts/posts/books2025/</link>
+      <pubDate>Mon, 08 Sep 2025 19:24:44 +0300</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/books2025/</guid>
+      <description>To keep up with my reading habit, I pledged to read 20 books in 2025. Here follows the list of books I&amp;rsquo;ve read thus far, the ones with bold are my favorites. Hope you&amp;rsquo;ll find some inspiration.
+The Tartar Steppe by Dino Buzzati - 8/10
+Why Machine Learn: The Elegant Math Behind Modern AI by Anil Ananthaswamy - 9/10
+Mastery by &amp;ldquo;Robert Greene&amp;rdquo; - 9/10
+What I learned Losing a Million Dollars by &amp;ldquo;Jim Paul&amp;rdquo; 6/10</description>
+    </item>
+    
+    <item>
+      <title>Books read 2024</title>
+      <link>https://georgepaps.pages.dev/posts/posts/books2024/</link>
+      <pubDate>Tue, 24 Dec 2024 10:54:44 +0300</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/books2024/</guid>
+      <description>In case you need some reading inspiration, here is a list of the books I read in 2024. I have highlighted my favorite ones.
+&amp;ldquo;On Writing: A Memoir of the Craft&amp;rdquo; by Stephen King - 8/10 &amp;ldquo;Outlive: The Science and Art of Longevity&amp;rdquo; by Peter Attia - 8/10 &amp;ldquo;Slow Productivity: The Lost Art of Accomplishment Without Burnout&amp;rdquo; by Cal Newport - 8/10 &amp;ldquo;The Gene: An Intimate History&amp;rdquo; by Siddhartha Mukherjee - 9/10 The Man who Solved the Markets: How Jim Simons Launched the Quant Revolution by Gregory Zuckerman - 7/10 &amp;ldquo;Same as Ever: A Guide to What Never Changes&amp;rdquo; by Morgan Housel - 9/10 &amp;ldquo;The Psychology of Money&amp;rdquo; by Morgan Housel - 8/10 Algebra of Wealth: A Simple Formula for Financial Security by Scott Galloway - 6/10 The Book of Laughter and Forgetting by Milan Kundera - 6/10 &amp;ldquo;Reality is Not What it Seems: The Journey to Quantum Gravity&amp;rdquo; by Carlo Rovelli - 8/10 &amp;ldquo;Absolutely on Music: Conversations with Seiji Ozawa&amp;rdquo; by Haruki Murakami - 8/10 Ways of Seeing by John Berger - 6/10 &amp;ldquo;Total Recall: My Unbelievably True Life Story&amp;rdquo; by Arnold Schwarzenegger - 8/10 &amp;ldquo;The Creative Act: A Way of Being&amp;rdquo; by Rick Rubin - 9/10 &amp;ldquo;Atomic Habits&amp;rdquo; by James Clear - 8/10 &amp;ldquo;Heart of Darkness&amp;rdquo; by Joseph Conrad - 9/10 </description>
+    </item>
+    
+    <item>
+      <title>Mitochondrial Eve</title>
+      <link>https://georgepaps.pages.dev/posts/posts/mitochondrialeve/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/mitochondrialeve/</guid>
+      <description>I recently finished Gene by Siddhartha Mukherjee, a long but rather delightful read. In this book the author follows humanity&amp;rsquo;s journey towards unravelling the mysteries of genetics.
+Among the many fascinating topics explored in the book, one that captured my imagination is that of Mitochondrial Eve. This exotically named concept is based on two simple propositions. The first is that all modern humans can trace their lineage back to a single female ancestor1.</description>
+    </item>
+    
+    <item>
+      <title>Books read 2023</title>
+      <link>https://georgepaps.pages.dev/posts/posts/books2023/</link>
+      <pubDate>Sat, 23 Dec 2023 17:54:44 +0300</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/books2023/</guid>
+      <description>In case you need some reading inspiration, here is a list of the books I&amp;rsquo;ve read in 2023. I have highlighted my favorite ones.
+American Pastoral by Philip Roth - 6/10 Les Miserables by Victor Hugo - 7/10 Clear Thinking by Shane Parrish - 6/10 The Comfort Crisis by Michael Easter - 8/10 Xenakis by Nouritza Matossian - 7/10 Benjamin Franklin by Walter Isaacson - 8/10 100 Baggers: Stocks That Return 100-to-1 and How To Find Them by Christopher W.</description>
+    </item>
+    
+    <item>
+      <title>Favorite Books</title>
+      <link>https://georgepaps.pages.dev/posts/posts/favbooks/</link>
+      <pubDate>Mon, 25 Sep 2023 20:54:44 +0300</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/favbooks/</guid>
+      <description>The past years I&amp;rsquo;ve read a couple of books. The ones I enjoyed the most are:
+Non-fiction:
+Black Swan - Nassim Nicholas Taleb Antifragile - Nassim Nicholas Taleb The Bed Of Procrustes - Nassim Nicholas Taleb Hackers and Painters - Paul Graham Flow - Mihaly Csikszentmihalyi Leonardo da Vinci - Walter Isaacson Einstein: His Life and Universe - Walter Isaacson Steve Jobs - Walter Isaacson Thinking, Fast and Slow - Daniel Kahneman Benjamin Franklin: An American Life - Walter Isaacson Why We Do What We Do - Edward Deci The Obstacle Is the Way - Ryan Holiday Stillness is the Key - Ryan Holiday Ego is the Enemy - Ryan Holiday Mastery - Robert Greene The Comfort Crisis - Michael Easter Why Nations Fail - Daron Acemoglu Macroeconomics Beyond the NAIRU - Servaas Storm 21 Lessons for the 21st Century - Yuval Noah Harari Sapiens: A Brief History of Humankind - Yuval Noah Harari Essentialism - Greg McKeown The Art of the Good Life - Rolf Dobelli The Pathless Path - Paul Millerd Fiction:</description>
+    </item>
+    
+    <item>
+      <title>Book Review - Gödel, Escher, Bach</title>
+      <link>https://georgepaps.pages.dev/posts/bookreviews/geb/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/bookreviews/geb/</guid>
+      <description>Traces of intelligence. Rating: 6/10
+In this book the author attempts to formally approach consciousness and to unravel the mysteries of its emergence. An arguably ambitious goal. Surprisingly, what you come to realize throughout the book, is that to some extend he succeeds. His concept of convoluted, multi-level strange loops seems to offer an interesting leeway towards the origins of consciousness. Maybe not the only available, nor the most effective, but nevertheless a viable one.</description>
+    </item>
+    
+  </channel>
+</rss>

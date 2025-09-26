@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>thoughts on George Paps Blog</title>
+    <link>https://georgepaps.pages.dev/categories/thoughts/</link>
+    <description>Recent content in thoughts on George Paps Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mitochondrial Eve</title>
+      <link>https://georgepaps.pages.dev/posts/posts/mitochondrialeve/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/posts/mitochondrialeve/</guid>
+      <description>I recently finished Gene by Siddhartha Mukherjee, a long but rather delightful read. In this book the author follows humanity&amp;rsquo;s journey towards unravelling the mysteries of genetics.
+Among the many fascinating topics explored in the book, one that captured my imagination is that of Mitochondrial Eve. This exotically named concept is based on two simple propositions. The first is that all modern humans can trace their lineage back to a single female ancestor1.</description>
+    </item>
+    
+    <item>
+      <title>Book Review - Gödel, Escher, Bach</title>
+      <link>https://georgepaps.pages.dev/posts/bookreviews/geb/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgepaps.pages.dev/posts/bookreviews/geb/</guid>
+      <description>Traces of intelligence. Rating: 6/10
+In this book the author attempts to formally approach consciousness and to unravel the mysteries of its emergence. An arguably ambitious goal. Surprisingly, what you come to realize throughout the book, is that to some extend he succeeds. His concept of convoluted, multi-level strange loops seems to offer an interesting leeway towards the origins of consciousness. Maybe not the only available, nor the most effective, but nevertheless a viable one.</description>
+    </item>
+    
+  </channel>
+</rss>
