@@ -6,7 +6,54 @@
         <description>Recent content in Posts on George Paps Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Glimpses of Computer Vision (Draft)</title>
+        <link>https://georgepaps.pages.dev/post/computervision1/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://georgepaps.pages.dev/post/computervision1/</guid>
+        <description>&lt;p&gt;This essay outlines some major developments in the field of computer vision,
+starting from Perceptron and up to more recent developments like EfficientNet.&lt;/p&gt;
+&lt;h2 id=&#34;perceptron-1957&#34;&gt;Perceptron (1957)
+&lt;/h2&gt;&lt;p&gt;Our journey will start in the late 50s.
+In 1957 Rosenblatt, an erudite psychologist,
+conceived the earliest and simplest type of artificial neural network, the Perceptron.
+Its functionality is straightforward:
+take a set of inputs,
+calculate their weighted average based on some weights,
+add a parameter called bias,
+and check the sign of the result.
+If the result is greater or equal to zero the neuron outputs 1,
+otherwise if the result is less than 0 it outputs 0.
+In mathematical notation the equation described above for four inputs is:&lt;/p&gt;
+&lt;p&gt;$$
+z = w_{1}*x_{1} + w_{2}*x_{2} + w_{3}*x_{3} + w_{4}*x_{4} + b \
+$$
+$$
+\text{output:}\
+$$
+$$
+z&amp;gt;= 0 \to 1 \
+z &amp;lt; 0 \to 0
+$$
+or in condensed form $z$ can be calculated as:&lt;/p&gt;
+&lt;p&gt;$$z=\sum_{i=1}^n w_{i}*x_i + b $$&lt;/p&gt;
+&lt;p&gt;The calculations seem and are simple. The key contribution of Perceptron though is not in its calculations but on its learning algorithm. In order to understand the Perceptron&amp;rsquo;s learning algorithm we need to formalize the type of problems Perceptron attempts solving.&lt;/p&gt;
+&lt;h2 id=&#34;le-net-1998&#34;&gt;Le Net (1998)
+&lt;/h2&gt;&lt;p&gt;French machine-learning heavyweight Yann LeCun introduced in 1998 LeNet5.
+&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;alexnet-2012&#34;&gt;AlexNet (2012)
+&lt;/h2&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;vgg-16-2015&#34;&gt;VGG-16 (2015)
+&lt;/h2&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;resnet-2015&#34;&gt;ResNet (2015)
+&lt;/h2&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;mobilenet-2017&#34;&gt;MobileNet (2017)
+&lt;/h2&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;efficient-net-2019&#34;&gt;Efficient Net (2019)
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>Books read 2025</title>
         <link>https://georgepaps.pages.dev/post/books2025/</link>
         <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
@@ -128,7 +175,7 @@ I have highlighted my favorite ones.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Favorite Books (up to 09/2023)</title>
+        <title>Favorite Books</title>
         <link>https://georgepaps.pages.dev/post/favbooks/</link>
         <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
         

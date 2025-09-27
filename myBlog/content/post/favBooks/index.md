@@ -1,6 +1,6 @@
 +++
 author = "George Paps"
-title = "Favorite Books (up to 09/2023)"
+title = "Favorite Books"
 date = "2023-09-25"
 categories = [
     "books"
