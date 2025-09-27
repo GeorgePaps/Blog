@@ -1,4 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://georgepaps.pages.dev'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'George Paps Blog'
 theme = 'stack-theme' 
+
+[params]
+favicon = "/favicon.ico"
+
+[Params.sidebar.avatar]
+
+local = false
+src = '/img/christina-ambalavanar-YHfFynSrclg-unsplash2.jpg'
+
+
