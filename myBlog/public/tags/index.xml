@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on George Paps Blog</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://georgepaps.pages.dev/tags/</link>
         <description>Recent content in Tags on George Paps Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 23 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Book Reviews</title>
-        <link>http://localhost:1313/tags/book-reviews/</link>
-        <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
+        <link>https://georgepaps.pages.dev/tags/book-reviews/</link>
+        <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/book-reviews/</guid>
+        <guid>https://georgepaps.pages.dev/tags/book-reviews/</guid>
         <description></description>
         </item>
         

@@ -8,7 +8,6 @@ tags = [
 categories = [
     "books"
 ]
-image = "pickawood-YbLitAY8bPA-unsplash.jpg"
 +++
 
 In case you need some reading inspiration, 

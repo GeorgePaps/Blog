@@ -2,17 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>George Paps Blog</title>
-        <link>http://localhost:1313/</link>
+        <link>https://georgepaps.pages.dev/</link>
         <description>Recent content on George Paps Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 23 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Books read 2025</title>
+        <link>https://georgepaps.pages.dev/post/books2025/</link>
+        <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://georgepaps.pages.dev/post/books2025/</guid>
+        <description>&lt;p&gt;To keep up with my reading habit,
+I pledged to read 20 books in 2025.
+Here follows the list of books I&amp;rsquo;ve read thus far,
+the ones with bold are my favorites.
+Hope you&amp;rsquo;ll find some inspiration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;The Tartar Steppe&lt;/strong&gt; by Dino Buzzati - 8/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Why Machine Learn: The Elegant Math Behind Modern AI&lt;/strong&gt;  by Anil Ananthaswamy - 9/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mastery&lt;/strong&gt; by &amp;ldquo;Robert Greene&amp;rdquo; - 9/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What I learned Losing a Million Dollars by &amp;ldquo;Jim Paul&amp;rdquo; 6/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Vegetarian by &amp;ldquo;Han Kang&amp;rdquo; - 7/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Maxims by &amp;ldquo;Francois de la Rochefoucauld&amp;rdquo; - 8/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An Inquiry into the Nature and Causes of the Wealth of Nations by &amp;ldquo;Adam Smith&amp;rdquo; - 7/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tomorrow, and Tomorrow, and Tomorrow&lt;/strong&gt; by &lt;em&gt;Gabrielle Zevin&lt;/em&gt; - 8/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One Up on Wall Street by &lt;em&gt;Peter Lynch&lt;/em&gt; - 6/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wool Omnibus by &lt;em&gt;Howey Hugh&lt;/em&gt; -  - 6/10 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Magic Circle by &lt;em&gt;Katherine Neville&lt;/em&gt; - 7/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Eight by &lt;em&gt;Katherine Neville&lt;/em&gt; - 7/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Sapiens: A Brief History of Humankind&amp;rdquo;&lt;/strong&gt; by Yuval Noah Harari - 10/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Police by &lt;em&gt;Jo Nesbo&lt;/em&gt; - 6/10&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Apple TV series SILO is based on this book. I liked the series more.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>Books read 2024</title>
+        <link>https://georgepaps.pages.dev/post/books2024/</link>
+        <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://georgepaps.pages.dev/post/books2024/</guid>
+        <description>&lt;p&gt;In case you need some reading inspiration,
+here is a list of the books I read in 2024.
+I have highlighted my favorite ones.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;On Writing: A Memoir of the Craft&amp;rdquo;&lt;/strong&gt; by Stephen King - 8/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Outlive: The Science and Art of Longevity&amp;rdquo;&lt;/strong&gt; by Peter Attia - 8/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Slow Productivity: The Lost Art of Accomplishment Without Burnout&amp;rdquo;&lt;/strong&gt; by Cal Newport - 8/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Gene: An Intimate History&amp;rdquo;&lt;/strong&gt; by Siddhartha Mukherjee - 9/10&lt;/li&gt;
+&lt;li&gt;The Man who Solved the Markets: How Jim Simons Launched the Quant Revolution by &lt;em&gt;Gregory Zuckerman&lt;/em&gt; - 7/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Same as Ever: A Guide to What Never Changes&amp;rdquo;&lt;/strong&gt; by Morgan Housel - 9/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Psychology of Money&amp;rdquo;&lt;/strong&gt; by Morgan Housel - 8/10&lt;/li&gt;
+&lt;li&gt;Algebra of Wealth: A Simple Formula for Financial Security by Scott Galloway - 6/10&lt;/li&gt;
+&lt;li&gt;The Book of Laughter and Forgetting by &lt;em&gt;Milan Kundera&lt;/em&gt; - 6/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Reality is Not What it Seems: The Journey to Quantum Gravity&amp;rdquo;&lt;/strong&gt; by Carlo Rovelli - 8/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Absolutely on Music: Conversations with Seiji Ozawa&amp;rdquo;&lt;/strong&gt; by Haruki Murakami - 8/10&lt;/li&gt;
+&lt;li&gt;Ways of Seeing by &lt;em&gt;John Berger&lt;/em&gt; - 6/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Total Recall: My Unbelievably True Life Story&amp;rdquo;&lt;/strong&gt; by Arnold Schwarzenegger - 8/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Creative Act: A Way of Being&amp;rdquo;&lt;/strong&gt; by Rick Rubin - 9/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Atomic Habits&amp;rdquo;&lt;/strong&gt; by James Clear - 8/10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Heart of Darkness&amp;rdquo;&lt;/strong&gt; by Joseph Conrad - 9/10&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Books read 2023</title>
-        <link>http://localhost:1313/post/books2023/</link>
+        <link>https://georgepaps.pages.dev/post/books2023/</link>
         <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/books2023/</guid>
-        <description>&lt;img src="http://localhost:1313/post/books2023/pickawood-YbLitAY8bPA-unsplash.jpg" alt="Featured image of post Books read 2023" /&gt;&lt;p&gt;In case you need some reading inspiration,
+        <guid>https://georgepaps.pages.dev/post/books2023/</guid>
+        <description>&lt;p&gt;In case you need some reading inspiration,
 here is a list of the books I&amp;rsquo;ve read in 2023.
 I have highlighted my favorite ones.&lt;/p&gt;
 &lt;ul&gt;
@@ -31,6 +125,56 @@ I have highlighted my favorite ones.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Steve Jobs by Walter Isaacson&lt;/strong&gt; - 9/10&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;The music of the primes&lt;/em&gt; by Marcus du Sautoy - 7/10&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Favorite Books (up to 09/2023)</title>
+        <link>https://georgepaps.pages.dev/post/favbooks/</link>
+        <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://georgepaps.pages.dev/post/favbooks/</guid>
+        <description>&lt;p&gt;The past years I&amp;rsquo;ve read a couple of books.
+The ones I enjoyed the most are:&lt;/p&gt;
+&lt;p&gt;Non-fiction:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Black Swan - Nassim Nicholas Taleb&lt;/li&gt;
+&lt;li&gt;Antifragile - Nassim Nicholas Taleb&lt;/li&gt;
+&lt;li&gt;The Bed Of Procrustes - Nassim Nicholas Taleb&lt;/li&gt;
+&lt;li&gt;Hackers and Painters - Paul Graham&lt;/li&gt;
+&lt;li&gt;Flow - Mihaly Csikszentmihalyi&lt;/li&gt;
+&lt;li&gt;Leonardo da Vinci - Walter Isaacson&lt;/li&gt;
+&lt;li&gt;Einstein: His Life and Universe - Walter Isaacson&lt;/li&gt;
+&lt;li&gt;Steve Jobs - Walter Isaacson&lt;/li&gt;
+&lt;li&gt;Thinking, Fast and Slow - Daniel Kahneman&lt;/li&gt;
+&lt;li&gt;Benjamin Franklin: An American Life - Walter Isaacson&lt;/li&gt;
+&lt;li&gt;Why We Do What We Do - Edward Deci&lt;/li&gt;
+&lt;li&gt;The Obstacle Is the Way - Ryan Holiday&lt;/li&gt;
+&lt;li&gt;Stillness is the Key - Ryan Holiday&lt;/li&gt;
+&lt;li&gt;Ego is the Enemy - Ryan Holiday&lt;/li&gt;
+&lt;li&gt;Mastery - Robert Greene&lt;/li&gt;
+&lt;li&gt;The Comfort Crisis - Michael Easter&lt;/li&gt;
+&lt;li&gt;Why Nations Fail - Daron Acemoglu&lt;/li&gt;
+&lt;li&gt;Macroeconomics Beyond the NAIRU - Servaas Storm&lt;/li&gt;
+&lt;li&gt;21 Lessons for the 21st Century - Yuval Noah Harari&lt;/li&gt;
+&lt;li&gt;Sapiens: A Brief History of Humankind - Yuval Noah Harari&lt;/li&gt;
+&lt;li&gt;Essentialism - Greg McKeown&lt;/li&gt;
+&lt;li&gt;The Art of the Good Life - Rolf Dobelli&lt;/li&gt;
+&lt;li&gt;The Pathless Path - Paul Millerd&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Fiction:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The Count of Monte Cristo - Alexandre Dumas&lt;/li&gt;
+&lt;li&gt;One Hundred Years of Solitude - Gabriel Garcia Marquez&lt;/li&gt;
+&lt;li&gt;Norwegian Wood - Haruki Murakami&lt;/li&gt;
+&lt;li&gt;Laughable Loves - Milan Kundera&lt;/li&gt;
+&lt;li&gt;Le Club des Incorrigibles Optimistes - Jean-Michel Guenassia&lt;/li&gt;
+&lt;li&gt;The Unbearable Lightness of Being - Milan Kundera&lt;/li&gt;
+&lt;li&gt;Love in the Time of Cholera - Gabriel Garcia Marquez&lt;/li&gt;
+&lt;li&gt;4 3 2 1 - Paul Auster&lt;/li&gt;
+&lt;li&gt;Silk - Alessandro Baricco&lt;/li&gt;
+&lt;li&gt;The Stranger - Albert Camus&lt;/li&gt;
+&lt;li&gt;When Nietzsche Wept - Irvin Yalom&lt;/li&gt;
+&lt;/ol&gt;
 </description>
         </item>
         
