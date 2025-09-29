@@ -9,7 +9,7 @@ categories = [
 +++
 
 This essay outlines some major developments in the field of computer vision, 
-starting from Perceptron and up to more recent developments like EfficientNet. 
+beginning with Perceptron and progressing to more recent advances such as EfficientNet. 
 
 ## Perceptron (1957)
 
@@ -45,7 +45,33 @@ or in condensed form $z$ can be calculated as:
 
 $$z=\sum_{i=1}^n w_{i}*x_i + b $$
 
-The calculations seem and are simple. The key contribution of Perceptron though is not in its calculations but on its learning algorithm. In order to understand the Perceptron's learning algorithm we need to formalize the type of problems Perceptron attempts solving.
+The calculations Perceptron performs seem and are simple. 
+**They key contribution of Perceptron though, 
+lies not in its calculations,
+but on its learning algorithm.** 
+
+Let's start with a simple problem of house classification.
+Given the square meters, the number of rooms, the construction year,
+the price, and an indicator of how expensive an area is,
+we want to identify whether a house is a bargain or not.
+We can use a Perceptron to help us identify bargains,
+in that case the problem can be restated in equation like:
+$$
+z = w_{1}*x_{1} + w_{2}*x_{2} + w_{3}*x_{3} + w_{4}*x_{4} + w_{4}*x_{4} + b \\
+$$
+
+$$
+\text{where:}
+$$
+
+$$
+x_{1} \text{: square meters of the house} \newline 
+x_{2} \text{: number of rooms} \newline 
+x_{3} \text{: construction year} \newline 
+x_{4} \text{: price} \newline 
+x_{5} \text{: area indicator} \newline 
+$$
+
 
 
 

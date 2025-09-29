@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This essay outlines some major developments in the field of computer vision, starting from Perceptron and up to more recent developments like EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. Its functionality is straightforward: take a set of inputs, calculate their weighted average based on some weights, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0. In mathematical notation the equation described above for four inputs is:\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. Its functionality is straightforward: take a set of inputs, calculate their weighted average based on some weights, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0. In mathematical notation the equation described above for four inputs is:\n">
 <title>Glimpses of Computer Vision (Draft)</title>
 
 <link rel='canonical' href='https://georgepaps.pages.dev/post/computervision1/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Glimpses of Computer Vision (Draft)">
-<meta property='og:description' content="This essay outlines some major developments in the field of computer vision, starting from Perceptron and up to more recent developments like EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. Its functionality is straightforward: take a set of inputs, calculate their weighted average based on some weights, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0. In mathematical notation the equation described above for four inputs is:\n">
+<meta property='og:description' content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. Its functionality is straightforward: take a set of inputs, calculate their weighted average based on some weights, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0. In mathematical notation the equation described above for four inputs is:\n">
 <meta property='og:url' content='https://georgepaps.pages.dev/post/computervision1/'>
 <meta property='og:site_name' content='George Paps Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-27T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-27T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="Glimpses of Computer Vision (Draft)">
-<meta name="twitter:description" content="This essay outlines some major developments in the field of computer vision, starting from Perceptron and up to more recent developments like EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. Its functionality is straightforward: take a set of inputs, calculate their weighted average based on some weights, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0. In mathematical notation the equation described above for four inputs is:\n">
+<meta name="twitter:description" content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. Its functionality is straightforward: take a set of inputs, calculate their weighted average based on some weights, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0. In mathematical notation the equation described above for four inputs is:\n">
     </head>
     <body class="
     article-page
@@ -168,7 +168,7 @@
     
     
     <p>This essay outlines some major developments in the field of computer vision,
-starting from Perceptron and up to more recent developments like EfficientNet.</p>
+beginning with Perceptron and progressing to more recent advances such as EfficientNet.</p>
 <h2 id="perceptron-1957">Perceptron (1957)
 </h2><p>Our journey will start in the late 50s.
 In 1957 Rosenblatt, an erudite psychologist,
@@ -193,7 +193,29 @@ z &lt; 0 \to 0
 $$
 or in condensed form $z$ can be calculated as:</p>
 <p>$$z=\sum_{i=1}^n w_{i}*x_i + b $$</p>
-<p>The calculations seem and are simple. The key contribution of Perceptron though is not in its calculations but on its learning algorithm. In order to understand the Perceptron&rsquo;s learning algorithm we need to formalize the type of problems Perceptron attempts solving.</p>
+<p>The calculations Perceptron performs seem and are simple.
+<strong>They key contribution of Perceptron though,
+lies not in its calculations,
+but on its learning algorithm.</strong></p>
+<p>Let&rsquo;s start with a simple problem of house classification.
+Given the square meters, the number of rooms, the construction year,
+the price, and an indicator of how expensive an area is,
+we want to identify whether a house is a bargain or not.
+We can use a Perceptron to help us identify bargains,
+in that case the problem can be restated in equation like:
+$$
+z = w_{1}*x_{1} + w_{2}*x_{2} + w_{3}*x_{3} + w_{4}*x_{4} + w_{4}*x_{4} + b \
+$$</p>
+<p>$$
+\text{where:}
+$$</p>
+<p>$$
+x_{1} \text{: square meters of the house} \newline
+x_{2} \text{: number of rooms} \newline
+x_{3} \text{: construction year} \newline
+x_{4} \text{: price} \newline
+x_{5} \text{: area indicator} \newline
+$$</p>
 <h2 id="le-net-1998">Le Net (1998)
 </h2><p>French machine-learning heavyweight Yann LeCun introduced in 1998 LeNet5.
 &hellip;</p>
