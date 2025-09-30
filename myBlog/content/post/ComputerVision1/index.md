@@ -22,13 +22,16 @@ beginning with Perceptron and progressing to more recent advances such as Effici
 Our journey will start in the late 50s.
 In 1957 Rosenblatt, an erudite psychologist, 
 conceived the earliest and simplest type of artificial neural network, the Perceptron.
-Its functionality is straightforward: 
-take a set of inputs, 
-calculate their weighted average based on some weights,
+The Perceptron functions as a simple classifier 
+that based on some inputs it outputs 0 or 1.
+Its calculations are straightforward: 
+take the inputs, 
+calculate their weighted average,
 add a parameter called bias,
 and check the sign of the result.
 If the result is greater or equal to zero the neuron outputs 1, 
 otherwise if the result is less than 0 it outputs 0.
+
 In mathematical notation the equation described above for four inputs is:
 
 $$
@@ -38,8 +41,8 @@ $$
 \text{output:}\\
 $$
 $$
-z>= 0 \to 1 \\
-z < 0 \to 0 
+\text{if } z>= 0 \to 1 \newline
+\text{if } z < 0 \to 0 
 $$
 or in condensed form $z$ can be calculated as:
 
@@ -50,12 +53,14 @@ The calculations Perceptron performs seem and are simple.
 lies not in its calculations,
 but on its learning algorithm.** 
 
-Let's start with a simple problem of house classification.
-Given the square meters, the number of rooms, the construction year,
-the price, and an indicator of how expensive an area is,
-we want to identify whether a house is a bargain or not.
-We can use a Perceptron to help us identify bargains,
-in that case the problem can be restated in equation like:
+To get a better understanding of how Perceptron works, 
+let's start with a simple house classification problem.
+We want given the square meters, the number of rooms, the construction year,
+the price, and an indicator of how expensive the area is,
+to identify whether a house is a bargain or not.
+Since Perceptron is a classifier
+we can use it to help us identify bargains.
+The problem statement mentioned above can be restated in the following way:
 $$
 z = w_{1}*x_{1} + w_{2}*x_{2} + w_{3}*x_{3} + w_{4}*x_{4} + w_{4}*x_{4} + b \\
 $$
@@ -72,7 +77,29 @@ x_{4} \text{: price} \newline
 x_{5} \text{: area indicator} \newline 
 $$
 
+Now, if $z > 0$ we'll say that the house is a bargain, otherwise it is not. 
 
+In the problem statement there are five $x$ variables describing each house,
+and  6 parameters $w_{1},w_{2},w_{3},w_{4},w_{5}, w_{6}$, and $b$
+that affect the outcome. 
+These parameters, 
+when selected appropriately,
+can result in the equation correctly identifying 
+whether a house is a bargain or not.
+For the houses that are bargains 
+their weighted average plus b would be greater than zero
+for the rest it will be less than zero.
+But how do we decide what values these 6 parameters will take?
+
+The process of picking the appropriate parameters 
+for our Perceptron is called training.
+For the training process to take place
+we need some training examples.
+that is some houses that we have values for the five values describing them
+and we know whether they are a bargain or not.
+Having these training examples we can tune the parameters 
+in order to classify a house as a bargain or not.
+Here lies one of the main contributions of Perceptron.
 
 
 ## Le Net (1998)
