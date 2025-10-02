@@ -19,7 +19,7 @@ beginning with Perceptron and progressing to more recent advances such as Effici
 In 1957 Rosenblatt, an erudite psychologist,
 conceived the earliest and simplest type of artificial neural network, the Perceptron.
 The Perceptron functions as a simple classifier
-that based on some inputs it outputs 0 or 1.
+which based on some inputs outputs 0 or 1.
 Its calculations are straightforward:
 take the inputs,
 calculate their weighted average,
@@ -46,7 +46,7 @@ lies not in its calculations,
 but on its learning algorithm.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;To get a better understanding of how Perceptron works,
 let&amp;rsquo;s start with a simple house classification problem.
-We want given the square meters, the number of rooms, the construction year,
+We want, given the square meters, the number of rooms, the construction year,
 the price, and an indicator of how expensive the area is,
 to identify whether a house is a bargain or not.
 Since Perceptron is a classifier
@@ -80,15 +80,39 @@ But how do we decide what values these 6 parameters will take?&lt;/p&gt;
 &lt;p&gt;The process of picking the appropriate parameters
 for our Perceptron is called training.
 For the training process to take place
-we need some training examples.
-that is some houses that we have values for the five values describing them
-and we know whether they are a bargain or not.
+we need training examples,
+houses with known values for the 5 variables describing them
+and knowledge of whether they are a bargain or not.
 Having these training examples we can tune the parameters
 in order to classify a house as a bargain or not.
-Here lies one of the main contributions of Perceptron.&lt;/p&gt;
+Without getting into many details,
+here is the high level training algorithm used by Perceptron.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1) pick random values for the parameters w1,w2,w3,w4,w5,b
+
+2) pick an example house:
+
+    a) calculate z based on house variables and parameters
+    b) if z &amp;gt; 0 the algorithm predicts the house is a bargain, otherwise not
+    c) does the prediction agree with the example?
+        i) yes -&amp;gt; continue to next example
+        ii) no -&amp;gt;  update the parameters and continue to next example
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The second loop continues until we go through all examples being correctly classified
+or some other stopping condition if it takes too many iteration to classify all houses correctly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One of the main contributions of Perceptron
+is the training algorithm described in step 2.&lt;/strong&gt;
+This step-by-step learning by example process captured the imagination
+of the scientist of the time.
+It might felt reminiscent on some level to how we learn;
+we make attempts towards our goal
+and when we make a mistake we learn from it
+and adjust our strategy.&lt;/p&gt;
 &lt;h2 id=&#34;le-net-1998&#34;&gt;Le Net (1998)
-&lt;/h2&gt;&lt;p&gt;French machine-learning heavyweight Yann LeCun introduced in 1998 LeNet5.
-&amp;hellip;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;French machine-learning heavyweight Yann LeCun introduced in 1998 LeNet5,
+a convolutional neural network used for image classification&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.
+LeNet5 was pivotal and contributed many innovations in the field
+influencing significantly the field of deep learning.&lt;/p&gt;
+&lt;p&gt;To those with knowledge of the early stages of deep learning,
+LeNet5&amp;rsquo;s architecture should feel familiar.&lt;/p&gt;
 &lt;h2 id=&#34;alexnet-2012&#34;&gt;AlexNet (2012)
 &lt;/h2&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;vgg-16-2015&#34;&gt;VGG-16 (2015)
@@ -98,7 +122,16 @@ Here lies one of the main contributions of Perceptron.&lt;/p&gt;
 &lt;h2 id=&#34;mobilenet-2017&#34;&gt;MobileNet (2017)
 &lt;/h2&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;efficient-net-2019&#34;&gt;Efficient Net (2019)
-&lt;/h2&gt;</description>
+&lt;/h2&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;LeNet5 takes 32*32 images and classifies them in categories.
+The original application was hand-written digit recognition.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
         </item>
         
     </channel>
