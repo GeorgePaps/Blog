@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. The Perceptron functions as a simple classifier which based on some inputs outputs 0 or 1. Its calculations are straightforward: take the inputs, calculate their weighted average, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0.\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1958)\rOur journey will start in the late 50s. In 1958 Rosenblatt [1], an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. The Perceptron functions as a simple classifier which based on some inputs, outputs 0 or 1. Its calculations are straightforward: take the inputs, calculate their weighted average, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0.\n">
 <title>Glimpses of Computer Vision (Draft)</title>
 
 <link rel='canonical' href='https://georgepaps.pages.dev/post/computervision1/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Glimpses of Computer Vision (Draft)">
-<meta property='og:description' content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. The Perceptron functions as a simple classifier which based on some inputs outputs 0 or 1. Its calculations are straightforward: take the inputs, calculate their weighted average, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0.\n">
+<meta property='og:description' content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1958)\rOur journey will start in the late 50s. In 1958 Rosenblatt [1], an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. The Perceptron functions as a simple classifier which based on some inputs, outputs 0 or 1. Its calculations are straightforward: take the inputs, calculate their weighted average, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0.\n">
 <meta property='og:url' content='https://georgepaps.pages.dev/post/computervision1/'>
 <meta property='og:site_name' content='George Paps Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-27T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-27T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="Glimpses of Computer Vision (Draft)">
-<meta name="twitter:description" content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1957)\rOur journey will start in the late 50s. In 1957 Rosenblatt, an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. The Perceptron functions as a simple classifier which based on some inputs outputs 0 or 1. Its calculations are straightforward: take the inputs, calculate their weighted average, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0.\n">
+<meta name="twitter:description" content="This essay outlines some major developments in the field of computer vision, beginning with Perceptron and progressing to more recent advances such as EfficientNet.\nPerceptron (1958)\rOur journey will start in the late 50s. In 1958 Rosenblatt [1], an erudite psychologist, conceived the earliest and simplest type of artificial neural network, the Perceptron. The Perceptron functions as a simple classifier which based on some inputs, outputs 0 or 1. Its calculations are straightforward: take the inputs, calculate their weighted average, add a parameter called bias, and check the sign of the result. If the result is greater or equal to zero the neuron outputs 1, otherwise if the result is less than 0 it outputs 0.\n">
     </head>
     <body class="
     article-page
@@ -152,7 +152,7 @@
 
 
                 <time class="article-time--reading">
-                    4 minute read
+                    6 minute read
                 </time>
             </div>
         
@@ -169,12 +169,12 @@
     
     <p>This essay outlines some major developments in the field of computer vision,
 beginning with Perceptron and progressing to more recent advances such as EfficientNet.</p>
-<h2 id="perceptron-1957">Perceptron (1957)
+<h2 id="perceptron-1958">Perceptron (1958)
 </h2><p>Our journey will start in the late 50s.
-In 1957 Rosenblatt, an erudite psychologist,
+In 1958 Rosenblatt [1], an erudite psychologist,
 conceived the earliest and simplest type of artificial neural network, the Perceptron.
 The Perceptron functions as a simple classifier
-which based on some inputs outputs 0 or 1.
+which based on some inputs, outputs 0 or 1.
 Its calculations are straightforward:
 take the inputs,
 calculate their weighted average,
@@ -233,7 +233,7 @@ their weighted average plus b would be greater than zero
 for the rest it will be less than zero.
 But how do we decide what values these 6 parameters will take?</p>
 <p>The process of picking the appropriate parameters
-for our Perceptron is called training.
+for our Perceptron is called <strong>training</strong>.
 For the training process to take place
 we need training examples,
 houses with known values for the 5 variables describing them
@@ -262,27 +262,82 @@ we make attempts towards our goal
 and when we make a mistake we learn from it
 and adjust our strategy.</p>
 <h2 id="le-net-1998">Le Net (1998)
-</h2><p>French machine-learning heavyweight Yann LeCun introduced in 1998 LeNet5,
-a convolutional neural network used for image classification<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
-LeNet5 was pivotal and contributed many innovations in the field
-influencing significantly the field of deep learning.</p>
-<p>To those with knowledge of the early stages of deep learning,
-LeNet5&rsquo;s architecture should feel familiar.</p>
+</h2><p>French machine-learning heavyweight Yann LeCun introduced in 1998 [2]
+a convolutional neural network used for image classification, LeNet5.
+On a high level LeNet5 shares some similar characteristics with Perceptron:
+both receive inputs<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>,
+perform calculations based on trainable parameters,
+and classify the output<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+LeNet5 though is a significantly more complicated artificial neural network.
+The input has much bigger size
+and the calculations are more complicated and consist of many successive layers.</p>
+<p>The main problem networks similar to LeNet5 faced
+was the significantly higher number of trainable parameters
+due to bigger input size and more calculations.
+To get a sense of scale,
+LeNet5 has around 60.000 trainable parameters,
+while the Perceptron example discussed earlier has 6.
+This made training the networks very challenging.
+And here lies the main contribution of LeNet5,
+LeCun implemented the efficient and still widely used
+method for training neural networks called backpropagation.
+This development made feasible the training of networks similar to LeNet5
+and contributed to their widespread adoption.</p>
+<p>LeNet5 can be considered a foundational neural network for deep learning,
+and has made other contributions in the field, aside of the backpropagation method.
+It formalized the convolution operation with weight sharing filters,
+it demonstrated that successive convolutional layers
+can effectively capture spatial hierarchies,
+and it also introduced the use of pooling layers.
+Additionally the overall architecture introduced by LeNet5
+was used as the basis for subsequent models.</p>
 <h2 id="alexnet-2012">AlexNet (2012)
-</h2><p>&hellip;</p>
+</h2><p>AlexNet, developed by Krizhevsky, Sutskever, and Hinton [3],
+is a neural network similar to LeNet-5 but implemented on a significantly larger scale<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, with important technical innovations and remarkable performance.
+The overall network architecture is rather similar to LeNet5,
+an indication of its lasting influence.</p>
+<p>The main contribution of AlexNet is that it
+further showcased the feasibility of using deep convolutional neural networks
+for real-world computer visions tasks.
+It achieved this through a rigorous technical implementation
+and by using a number of technical innovations as:
+(1) ReLU activation functions,
+(2) parallel training in 2 GPUs,
+(3) dropout regularization and creative data augmentation techniques to avoid overfitting,
+and (4) overlapping max-pooling filters.</p>
 <h2 id="vgg-16-2015">VGG-16 (2015)
 </h2><p>&hellip;</p>
 <h2 id="resnet-2015">ResNet (2015)
 </h2><p>&hellip;</p>
-<h2 id="mobilenet-2017">MobileNet (2017)
-</h2><p>&hellip;</p>
-<h2 id="efficient-net-2019">Efficient Net (2019)
-</h2><div class="footnotes" role="doc-endnotes">
+<h2 id="references">References
+</h2><p>[1] F. Rosenblatt, &ldquo;The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain,&rdquo; <em>Psychological Review</em>, vol. 65, no. 6, pp. 386–408, 1958. <a class="link" href="https://doi.org/10.1037/h0042519"  target="_blank" rel="noopener"
+    >DOI: 10.1037/h0042519</a></p>
+<p>[2] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, &ldquo;Gradient-based learning applied to document recognition,&rdquo; <em>Proceedings of the IEEE</em>, vol. 86, no. 11, pp. 2278–2324, 1998. <a class="link" href="https://doi.org/10.1109/5.726791"  target="_blank" rel="noopener"
+    >DOI: 10.1109/5.726791</a></p>
+<p>[3] A. Krizhevsky, I. Sutskever, and G. E. Hinton, &ldquo;ImageNet Classification with Deep Convolutional Neural Networks,&rdquo; <em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2012. <a class="link" href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"  target="_blank" rel="noopener"
+    >PDF</a></p>
+<p>[4] K. Simonyan and A. Zisserman, &ldquo;Very Deep Convolutional Networks for Large-Scale Image Recognition,&rdquo; arXiv preprint arXiv:1409.1556, 2014. <a class="link" href="https://arxiv.org/abs/1409.1556"  target="_blank" rel="noopener"
+    >arXiv:1409.1556</a></p>
+<p>[5] K. He, X. Zhang, S. Ren, and J. Sun, &ldquo;Deep Residual Learning for Image Recognition,&rdquo; <em>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2016. <a class="link" href="https://doi.org/10.1109/CVPR.2016.90"  target="_blank" rel="noopener"
+    >DOI: 10.1109/CVPR.2016.90</a></p>
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>LeNet5 takes 32*32 images and classifies them in categories.
-The original application was hand-written digit recognition.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>In the case of LeNet5 the inputs are 32x32 black and white images, so the input has $32*32 = 1024$ data points for every example compared to the $5$ points for each Perceptron example.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>In the Perceptron example it classified the house as a bargain or not,
+LeNet5 recognizes hand-written digits which is equivalent to classifying the images to the classes: 0,1,2,3,4,5,6,7,8,9&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>The jump in the scale of the model is impressive.
+The input size increases from 32x32 black and white images to
+227x227 color images,
+thus from 1024 data points per example to 154.587 data points per example.
+The number of trainable parameters climbs from 60 thousand to 60 million.
+The number of layers increases from 7 to 12
+and the network classifies the images between a 1000 categories instead of 10.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
