@@ -7,7 +7,13 @@ math = true
 [params]
 favicon = "/favicon.ico"
 
+[Params.sidebar]
+
+subtitle = 'Under construction, moving blog to new template.'
+
 [Params.sidebar.avatar]
 
 local = false
 src = '/img/engin-akyurt-Hlkuojv_P6I-unsplash.jpg'
+
+

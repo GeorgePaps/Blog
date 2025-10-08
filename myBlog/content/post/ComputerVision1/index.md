@@ -1,7 +1,7 @@
 +++
 author = "George Paps"
-title = "Glimpses of Computer Vision (Draft)"
-date = "2025-09-27"
+title = "Glimpses of Computer Vision"
+date = "2025-10-08"
 math = true
 categories = [
     "articles"
@@ -19,173 +19,105 @@ beginning with Perceptron and progressing to more recent advances such as Effici
 - Earliest and simplest type of artificial neural network.
 - Works only for linearly separable problems. -->
 
-Our journey will start in the late 50s.
-In 1958 Rosenblatt [1], an erudite psychologist, 
-conceived the earliest and simplest type of artificial neural network, the Perceptron.
-The Perceptron functions as a simple classifier 
-which based on some inputs, outputs 0 or 1.
-Its calculations are straightforward: 
-take the inputs, 
-calculate their weighted average,
-add a parameter called bias,
-and check the sign of the result.
-If the result is greater or equal to zero the neuron outputs 1, 
-otherwise if the result is less than 0 it outputs 0.
-
-In mathematical notation the equation described above for four inputs is:
+Our journey starts in the late 1950s.
+In 1958 Frank Rosenblatt [1], an erudite psychologist, 
+conceived the earliest and simplest type of artificial neural network - 
+the **Perceptron**.
+The Perceptron is a **binary classifier**:
+given some input and a set of trainable parameters,
+it outputs 0 or 1.
+The following equation describes Perceptron's calculations:
 
 $$
-z = w_{1}*x_{1} + w_{2}*x_{2} + w_{3}*x_{3} + w_{4}*x_{4} + b \\
-$$
-$$
+z=\sum_{i=1}^n w_{i}*x_i + b \newline
 \text{output:}\\
 $$
 $$
 \text{if } z>= 0 \to 1 \newline
 \text{if } z < 0 \to 0 
 $$
-or in condensed form $z$ can be calculated as:
 
-$$z=\sum_{i=1}^n w_{i}*x_i + b $$
+where $w_{i}$ denotes the trainable parameters, 
+$x_{i}$ the input vector's components,
+and $b$ another parameter called bias. 
 
-The calculations Perceptron performs seem and are simple. 
-**They key contribution of Perceptron though, 
-lies not in its calculations,
-but on its learning algorithm.** 
+**The computations the Perceptron performs are simple,
+yet its most important contribution lies in its learning algorithm.**
 
-To get a better understanding of how Perceptron works, 
-let's start with a simple house classification problem.
-We want, given the square meters, the number of rooms, the construction year,
-the price, and an indicator of how expensive the area is,
-to identify whether a house is a bargain or not.
-Since Perceptron is a classifier
-we can use it to help us identify bargains.
-The problem statement mentioned above can be restated in the following way:
-$$
-z = w_{1}*x_{1} + w_{2}*x_{2} + w_{3}*x_{3} + w_{4}*x_{4} + w_{4}*x_{4} + b \\
-$$
+The learning algorithm determines 
+how the Perceptron adjusts its parameters during training.
+The learning process is simple,
+each training example is presented to Perceptron
+and whenever the Perceptron misclassifies one,
+it updates its parameters accordingly.
+These adjustments gradually steer the model towards classifying more examples correctly 
+and reducing errors.
 
-$$
-\text{where:}
-$$
+This simple, example-driven learning process — try, make mistakes, and adjust — 
+which to some extend is reminiscent of how humans learn 
+combined with some biological inspiration behind the idea of Perceptron 
+gave it a distinct aura and made it very popular.
+An important limitation though of Perceptron 
+is that it can find a correct solution only on linearly separable training sets.
+If the data are not linearly separable (for example the XOR problem), 
+the perceptron cannot represent a correct solution. 
+Minsky and Paper famously highlighted this limitation 
+contributing significantly towards the arrival of the first AI winter in research.
 
-$$
-x_{1} \text{: square meters of the house} \newline 
-x_{2} \text{: number of rooms} \newline 
-x_{3} \text{: construction year} \newline 
-x_{4} \text{: price} \newline 
-x_{5} \text{: area indicator} \newline 
-$$
+## LeNet-5 (1998)
 
-Now, if $z > 0$ we'll say that the house is a bargain, otherwise it is not. 
+It was known that overcoming the limitations of Perceptron
+required more complicated network architectures:
+networks with many layers of Perceptrons stacked
+(known as multilayer Perceptrons - MLP).
+An important problem with these architectures 
+is that the simple training algorithm mentioned for Perceptron
+is not applicable  
+and finding an efficient and scalable algorithm 
+for training more complicated networks proved to be a rather daunting task.
 
-In the problem statement there are five $x$ variables describing each house,
-and  6 parameters $w_{1},w_{2},w_{3},w_{4},w_{5}, w_{6}$, and $b$
-that affect the outcome. 
-These parameters, 
-when selected appropriately,
-can result in the equation correctly identifying 
-whether a house is a bargain or not.
-For the houses that are bargains 
-their weighted average plus b would be greater than zero
-for the rest it will be less than zero.
-But how do we decide what values these 6 parameters will take?
-
-The process of picking the appropriate parameters 
-for our Perceptron is called **training**.
-For the training process to take place
-we need training examples,
-houses with known values for the 5 variables describing them
-and knowledge of whether they are a bargain or not.
-Having these training examples we can tune the parameters 
-in order to classify a house as a bargain or not.
-Without getting into many details,
-here is the high level training algorithm used by Perceptron.
-
-```
-1) pick random values for the parameters w1,w2,w3,w4,w5,b
-
-2) pick an example house:
-
-    a) calculate z based on house variables and parameters
-    b) if z > 0 the algorithm predicts the house is a bargain, otherwise not
-    c) does the prediction agree with the example?
-        i) yes -> continue to next example
-        ii) no ->  update the parameters and continue to next example
-```
-
-The second loop continues until we go through all examples being correctly classified 
-or some other stopping condition if it takes too many iteration to classify all houses correctly.
-
-**One of the main contributions of Perceptron 
-is the training algorithm described in step 2.**
-This step-by-step learning by example process captured the imagination 
-of the scientist of the time.
-It might felt reminiscent on some level to how we learn;
-we make attempts towards our goal
-and when we make a mistake we learn from it
-and adjust our strategy.
-
-
-## Le Net (1998)
-
-<!-- LeNet is a deep convolutional neural network used for image recognition.
-It consists of a convolutional layer, followed by a average pool, 
-followed by another convolutional layer, followed by another average pool
-and finally two fully connected layers with a softmax(not really) in the end. -->
-
-French machine-learning heavyweight Yann LeCun introduced in 1998 [2]
-a convolutional neural network used for image classification, LeNet5.
-On a high level LeNet5 shares some similar characteristics with Perceptron:
-both receive inputs[^1], 
+In 1989 French machine-learning heavyweight Yann LeCun 
+introduced LeNet-5 [2].
+On a high level LeNet-5 shares many similar characteristics with Perceptron:
+both receive inputs, 
 perform calculations based on trainable parameters,
-and classify the output[^2].
-LeNet5 though is a significantly more complicated artificial neural network.
+and classify the output[^1].
+LeNet-5 though is a significantly more complicated artificial neural network.
 The input has much bigger size
-and the calculations are more complicated and consist of many successive layers.
+and the calculations are multi-layered and complicated.
 
-The main problem networks similar to LeNet5 faced 
-was the significantly higher number of trainable parameters
-due to bigger input size and more calculations.
 To get a sense of scale,
-LeNet5 has around 60.000 trainable parameters,
-while the Perceptron example discussed earlier has 6.
+LeNet-5 has around 60.000 trainable parameters,
+while a Perceptron usually has a number in the low tens.
 This made training the networks very challenging.
-And here lies the main contribution of LeNet5,
+And here lies the main contribution of LeNet-5,
 LeCun implemented the efficient and still widely used 
 method for training neural networks called backpropagation.
-This development made feasible the training of networks similar to LeNet5
+This development made feasible the training of networks similar to LeNet-5
 and contributed to their widespread adoption.
 
-LeNet5 can be considered a foundational neural network for deep learning,
-and has made other contributions in the field, aside of the backpropagation method. 
+Aside from the backpropagation training method 
+LeNet-5 has made other contributions in the field.
 It formalized the convolution operation with weight sharing filters,
 it demonstrated that successive convolutional layers 
 can effectively capture spatial hierarchies,
 and it also introduced the use of pooling layers.
-Additionally the overall architecture introduced by LeNet5
+Additionally the overall architecture introduced by LeNet-5
 was used as the basis for subsequent models.
+Overall LeNet-5 is considered one of the foundational models of deep learning.
 
-
-
-
-[^1]: In the case of LeNet5 the inputs are 32x32 black and white images, so the input has $32*32 = 1024$ data points for every example compared to the $5$ points for each Perceptron example. 
-[^2]: In the Perceptron example it classified the house as a bargain or not,
-LeNet5 recognizes hand-written digits which is equivalent to classifying the images to the classes: 0,1,2,3,4,5,6,7,8,9
-
+[^1]: LeNet-5 is used to classify handwritten digits between 0 and 9.
 
 ## AlexNet (2012)
 
 AlexNet, developed by Krizhevsky, Sutskever, and Hinton [3], 
-is a neural network similar to LeNet-5 but implemented on a significantly larger scale[^3], with important technical innovations and remarkable performance.
-The overall network architecture is rather similar to LeNet5,
-an indication of its lasting influence.
+is a neural network similar to LeNet-5 but implemented on a significantly larger scale[^3], with important technical innovations and remarkable performance. 
 
 The main contribution of AlexNet is that it 
 further showcased the feasibility of using deep convolutional neural networks
 for real-world computer visions tasks.
 It achieved this through a rigorous technical implementation
-and by using a number of technical innovations as:
+and through the introduction of many technical innovations as:
 (1) ReLU activation functions,
 (2) parallel training in 2 GPUs,
 (3) dropout regularization and creative data augmentation techniques to avoid overfitting,
@@ -201,13 +133,69 @@ The number of layers increases from 7 to 12
 and the network classifies the images between a 1000 categories instead of 10.
 
 
-## VGG-16 (2015)
+## VGG-16 (2014)
 
-...
+VGG-16 introduced by Simonyan and Zisserman in 2015 
+comprises another important step in the evolution of deep learning models[4].
+Compared to AlexNet, 
+the size of the model increases
+from around 60 million to around 138 million trainable parameters, 
+while the depth of the model increases
+from 12 layers to 16 layers.
+Another important difference 
+is that VGG-16 uses the same filter in all layers[^4],
+this simplifies the model architecture,
+while some related architectural tricks 
+help decrease the number of parameters.
+Overall though architecture of the VGG-16 is similar to that of AlexNet.
+
+The main contribution of VGG-16 is showing that increased model depth
+(more layers)
+is a viable path towards increased model accuracy.
+Additionally, its uniform and simplified architecture 
+was later used as the basis for many deep learning models
+and the pre-trained model 
+was used as the backbone of many computer vision tasks.
+
+[^4]: AlexNet uses convolutional filters of varying size and stride, their size for example ranges from 3x3 to 11x11. VGG-16 uses only 3x3 convolutional filters with same padding and stride of 1. It often uses many of those in a row if necessary. The latter trick reduces the number of necessary model parameters.
 
 ## ResNet (2015)
 
-...
+VGG-16 demonstrated the effectiveness of training increasingly deeper networks.
+However, as the depth of the networks increased,
+researchers and practitioners encountered a new challenge:
+vanishing and exploding gradients.
+This is a problem related to how backpropagation operates.
+As the name suggests, backpropagation,
+attempts to "propagate" the error made in the output layer
+back through all the involved layers, 
+estimate each layer's "contribution" to the error, 
+and adjust the respective parameters accordingly.
+This process for very deep networks is rather challenging
+and often results in overestimation or underestimation
+of the contribution distant layers have in the error.
+
+An elegant solution to the problem of vanishing and exploding gradients 
+was introduced with ResNet[5].
+In a typical neural network,
+the information propagates through each layer until it reaches the output,
+which can cause the contributions of early layers to diminish significantly.
+In Resnet, the authors introduced skip connections (or shortcuts), 
+which allow information from a layer 
+to bypass some subsequent layers. 
+These skip connections reduce the effective depth of calculations
+and increase the effectiveness of backpropagation in deeper networks.
+
+## Conclusion
+
+The improvements from one model to the next are mostly incremental 
+and even VGG-16 bears many similarities to LeNet-5.
+Following this development arc of computer vision models 
+one should naturally mention MobileNet[6] and EfficientNet[7],
+which emphasize efficiency and scalability in convolutional networks.
+After that however, there is a clear paradigm shift 
+with the introduction of Vision Transformers (ViTs),
+which replace convolution operations with attention mechanisms.
 
 ## References
 
@@ -220,3 +208,7 @@ and the network classifies the images between a 1000 categories instead of 10.
 [4] K. Simonyan and A. Zisserman, "Very Deep Convolutional Networks for Large-Scale Image Recognition," arXiv preprint arXiv:1409.1556, 2014. [arXiv:1409.1556](https://arxiv.org/abs/1409.1556)
 
 [5] K. He, X. Zhang, S. Ren, and J. Sun, "Deep Residual Learning for Image Recognition," *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2016. [DOI: 10.1109/CVPR.2016.90](https://doi.org/10.1109/CVPR.2016.90)
+
+[6] A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications," arXiv preprint arXiv:1704.04861, 2017. [arXiv:1704.04861](https://arxiv.org/abs/1704.04861)
+
+[7] M. Tan and Q. V. Le, "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks," *Proceedings of the International Conference on Machine Learning (ICML)*, 2019. [arXiv:1905.11946](https://arxiv.org/abs/1905.11946)
