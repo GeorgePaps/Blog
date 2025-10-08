@@ -39,26 +39,25 @@ $$
 
 where $w_{i}$ denotes the trainable parameters, 
 $x_{i}$ the input vector's components,
-and $b$ another parameter called bias. 
+and $b$ a parameter called bias. 
 
 **The computations the Perceptron performs are simple,
 yet its most important contribution lies in its learning algorithm.**
-
 The learning algorithm determines 
 how the Perceptron adjusts its parameters during training.
 The learning process is simple,
 each training example is presented to Perceptron
-and whenever the Perceptron misclassifies one,
+and whenever it misclassifies one,
 it updates its parameters accordingly.
 These adjustments gradually steer the model towards classifying more examples correctly 
 and reducing errors.
 
 This simple, example-driven learning process — try, make mistakes, and adjust — 
-which to some extend is reminiscent of how humans learn 
+which to some extend is reminiscent of how humans learn, 
 combined with some biological inspiration behind the idea of Perceptron 
 gave it a distinct aura and made it very popular.
-An important limitation though of Perceptron 
-is that it can find a correct solution only on linearly separable training sets.
+An important limitation though 
+is that Perceptron can find a correct solution only on linearly separable training sets.
 If the data are not linearly separable (for example the XOR problem), 
 the perceptron cannot represent a correct solution. 
 Minsky and Paper famously highlighted this limitation 
@@ -87,12 +86,12 @@ The input has much bigger size
 and the calculations are multi-layered and complicated.
 
 To get a sense of scale,
-LeNet-5 has around 60.000 trainable parameters,
+LeNet-5 has around 60.000 trainable parameters
 while a Perceptron usually has a number in the low tens.
 This made training the networks very challenging.
 And here lies the main contribution of LeNet-5,
 LeCun implemented the efficient and still widely used 
-method for training neural networks called backpropagation.
+method for training neural networks called **backpropagation**.
 This development made feasible the training of networks similar to LeNet-5
 and contributed to their widespread adoption.
 
@@ -102,7 +101,7 @@ It formalized the convolution operation with weight sharing filters,
 it demonstrated that successive convolutional layers 
 can effectively capture spatial hierarchies,
 and it also introduced the use of pooling layers.
-Additionally the overall architecture introduced by LeNet-5
+Additionally, the overall architecture introduced by LeNet-5
 was used as the basis for subsequent models.
 Overall LeNet-5 is considered one of the foundational models of deep learning.
 
@@ -147,10 +146,10 @@ is that VGG-16 uses the same filter in all layers[^4],
 this simplifies the model architecture,
 while some related architectural tricks 
 help decrease the number of parameters.
-Overall though architecture of the VGG-16 is similar to that of AlexNet.
+Overall though the architecture of the VGG-16 is similar to that of AlexNet.
 
-The main contribution of VGG-16 is showing that increased model depth
-(more layers)
+The main contribution of VGG-16 consists 
+in showing that increased model depth(more layers)
 is a viable path towards increased model accuracy.
 Additionally, its uniform and simplified architecture 
 was later used as the basis for many deep learning models
