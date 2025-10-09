@@ -16,22 +16,18 @@ subtitle = 'Thoughts on machine learning, books, politics, and finance. Feel fre
 local = false
 src = '/img/Cézanne -Mont Sainte-Victoire.jpg'
 
-[widgets]
-
-[[widgets.homepage]]
-type = 'search'
-
-[[widgets.homepage]]
-type = 'archives'
-params.limit = 5
-
-[[widgets.homepage]]
-type = 'categories'
-params.limit = 10
-
-[[widgets.homepage]]
-type = 'tag-cloud'
-params.limit = 10
+#[widgets]
+#[[widgets.homepage]]
+#type = 'search'
+#[[widgets.homepage]]
+#type = 'archives'
+#params.limit = 5
+#[[widgets.homepage]]
+#type = 'categories'
+#params.limit = 10
+#[[widgets.homepage]]
+#type = 'tag-cloud'
+#params.limit = 10
 
 [menu]
 main = []
