@@ -1,11 +1,12 @@
 +++
 author = "George Paps"
-title = "Glimpses of Computer Vision"
+title = "Computer Vision: From the Perceptron to EfficientNet"
 date = "2025-10-08"
 math = true
 categories = [
-    "articles"
+    "articles","machine-learning",
 ]
+image = "Cézanne -Mont Sainte-Victoire.jpg"
 +++
 
 This essay outlines some major developments in the field of computer vision, 

@@ -9,11 +9,36 @@ favicon = "/favicon.ico"
 
 [Params.sidebar]
 
-subtitle = 'Under construction, moving blog to new template.'
+subtitle = 'Thoughts on machine learning, books, politics, and finance. Feel free to reach me in georgezpaps@protonmail.com'
 
 [Params.sidebar.avatar]
 
 local = false
-src = '/img/engin-akyurt-Hlkuojv_P6I-unsplash.jpg'
+src = '/img/Cézanne -Mont Sainte-Victoire.jpg'
 
+[widgets]
 
+[[widgets.homepage]]
+type = 'search'
+
+[[widgets.homepage]]
+type = 'archives'
+params.limit = 5
+
+[[widgets.homepage]]
+type = 'categories'
+params.limit = 10
+
+[[widgets.homepage]]
+type = 'tag-cloud'
+params.limit = 10
+
+[menu]
+main = []
+
+[[menu.social]]
+
+identifier = 'github'
+name = 'GitHub'
+url = 'https://github.com/GeorgePaps'
+params.icon = 'brand-github'    

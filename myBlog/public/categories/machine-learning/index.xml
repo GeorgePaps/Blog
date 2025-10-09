@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Themes on George Paps Blog</title>
-        <link>http://localhost:1313/categories/themes/</link>
-        <description>Recent content in Themes on George Paps Blog</description>
+        <title>Machine-Learning on George Paps Blog</title>
+        <link>https://georgepaps.pages.dev/categories/machine-learning/</link>
+        <description>Recent content in Machine-Learning on George Paps Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/themes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://georgepaps.pages.dev/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Computer Vision: From the Perceptron to EfficientNet</title>
-        <link>http://localhost:1313/post/computervision1/</link>
+        <link>https://georgepaps.pages.dev/post/computervision1/</link>
         <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/computervision1/</guid>
-        <description>&lt;img src="http://localhost:1313/post/computervision1/C%C3%A9zanne%20-Mont%20Sainte-Victoire.jpg" alt="Featured image of post Computer Vision: From the Perceptron to EfficientNet" /&gt;&lt;p&gt;This essay outlines some major developments in the field of computer vision,
+        <guid>https://georgepaps.pages.dev/post/computervision1/</guid>
+        <description>&lt;img src="https://georgepaps.pages.dev/post/computervision1/C%C3%A9zanne%20-Mont%20Sainte-Victoire.jpg" alt="Featured image of post Computer Vision: From the Perceptron to EfficientNet" /&gt;&lt;p&gt;This essay outlines some major developments in the field of computer vision,
 beginning with Perceptron and progressing to more recent advances such as EfficientNet.&lt;/p&gt;
 &lt;h2 id=&#34;perceptron-1958&#34;&gt;Perceptron (1958)
 &lt;/h2&gt;&lt;p&gt;Our journey starts in the late 1950s.

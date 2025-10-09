@@ -6,13 +6,193 @@
         <description>Recent content in Syntax on George Paps Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 23 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/syntax/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>GEB</title>
-        <link>http://localhost:1313/post/geb/</link>
-        <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/syntax/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Computer Vision: From the Perceptron to EfficientNet</title>
+        <link>http://localhost:1313/post/computervision1/</link>
+        <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/geb/</guid>
-        <description>&lt;img src="http://localhost:1313/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post GEB" /&gt;</description>
+        <guid>http://localhost:1313/post/computervision1/</guid>
+        <description>&lt;img src="http://localhost:1313/post/computervision1/C%C3%A9zanne%20-Mont%20Sainte-Victoire.jpg" alt="Featured image of post Computer Vision: From the Perceptron to EfficientNet" /&gt;&lt;p&gt;This essay outlines some major developments in the field of computer vision,
+beginning with Perceptron and progressing to more recent advances such as EfficientNet.&lt;/p&gt;
+&lt;h2 id=&#34;perceptron-1958&#34;&gt;Perceptron (1958)
+&lt;/h2&gt;&lt;p&gt;Our journey starts in the late 1950s.
+In 1958 Frank Rosenblatt [1], an erudite psychologist,
+conceived the earliest and simplest type of artificial neural network -
+the &lt;strong&gt;Perceptron&lt;/strong&gt;.
+The Perceptron is a &lt;strong&gt;binary classifier&lt;/strong&gt;:
+given some input and a set of trainable parameters,
+it outputs 0 or 1.
+The following equation describes Perceptron&amp;rsquo;s calculations:&lt;/p&gt;
+&lt;p&gt;$$
+z=\sum_{i=1}^n w_{i}*x_i + b \newline
+\text{output:}\
+$$
+$$
+\text{if } z&amp;gt;= 0 \to 1 \newline
+\text{if } z &amp;lt; 0 \to 0
+$$&lt;/p&gt;
+&lt;p&gt;where $w_{i}$ denotes the trainable parameters,
+$x_{i}$ the input vector&amp;rsquo;s components,
+and $b$ a parameter called bias.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The computations the Perceptron performs are simple,
+yet its most important contribution lies in its learning algorithm.&lt;/strong&gt;
+The learning algorithm determines
+how the Perceptron adjusts its parameters during training.
+The learning process is simple,
+each training example is presented to Perceptron
+and whenever it misclassifies one,
+it updates its parameters accordingly.
+These adjustments gradually steer the model towards classifying more examples correctly
+and reducing errors.&lt;/p&gt;
+&lt;p&gt;This simple, example-driven learning process — try, make mistakes, and adjust —
+which to some extend is reminiscent of how humans learn,
+combined with some biological inspiration behind the idea of Perceptron
+gave it a distinct aura and made it very popular.
+An important limitation though
+is that Perceptron can find a correct solution only on linearly separable training sets.
+If the data are not linearly separable (for example the XOR problem),
+the perceptron cannot represent a correct solution.
+Minsky and Paper famously highlighted this limitation
+contributing significantly towards the arrival of the first AI winter in research.&lt;/p&gt;
+&lt;h2 id=&#34;lenet-5-1998&#34;&gt;LeNet-5 (1998)
+&lt;/h2&gt;&lt;p&gt;It was known that overcoming the limitations of Perceptron
+required more complicated network architectures:
+networks with many layers of Perceptrons stacked
+(known as multilayer Perceptrons - MLP).
+An important problem with these architectures
+is that the simple training algorithm mentioned for Perceptron
+is not applicable&lt;br&gt;
+and finding an efficient and scalable algorithm
+for training more complicated networks proved to be a rather daunting task.&lt;/p&gt;
+&lt;p&gt;In 1989 French machine-learning heavyweight Yann LeCun
+introduced LeNet-5 [2].
+On a high level LeNet-5 shares many similar characteristics with Perceptron:
+both receive inputs,
+perform calculations based on trainable parameters,
+and classify the output&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.
+LeNet-5 though is a significantly more complicated artificial neural network.
+The input has much bigger size
+and the calculations are multi-layered and complicated.&lt;/p&gt;
+&lt;p&gt;To get a sense of scale,
+LeNet-5 has around 60.000 trainable parameters
+while a Perceptron usually has a number in the low tens.
+This made training the networks very challenging.
+And here lies the main contribution of LeNet-5,
+LeCun implemented the efficient and still widely used
+method for training neural networks called &lt;strong&gt;backpropagation&lt;/strong&gt;.
+This development made feasible the training of networks similar to LeNet-5
+and contributed to their widespread adoption.&lt;/p&gt;
+&lt;p&gt;Aside from the backpropagation training method
+LeNet-5 has made other contributions in the field.
+It formalized the convolution operation with weight sharing filters,
+it demonstrated that successive convolutional layers
+can effectively capture spatial hierarchies,
+and it also introduced the use of pooling layers.
+Additionally, the overall architecture introduced by LeNet-5
+was used as the basis for subsequent models.
+Overall LeNet-5 is considered one of the foundational models of deep learning.&lt;/p&gt;
+&lt;h2 id=&#34;alexnet-2012&#34;&gt;AlexNet (2012)
+&lt;/h2&gt;&lt;p&gt;AlexNet, developed by Krizhevsky, Sutskever, and Hinton [3],
+is a neural network similar to LeNet-5 but implemented on a significantly larger scale&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, with important technical innovations and remarkable performance.&lt;/p&gt;
+&lt;p&gt;The main contribution of AlexNet is that it
+further showcased the feasibility of using deep convolutional neural networks
+for real-world computer visions tasks.
+It achieved this through a rigorous technical implementation
+and through the introduction of many technical innovations as:
+(1) ReLU activation functions,
+(2) parallel training in 2 GPUs,
+(3) dropout regularization and creative data augmentation techniques to avoid overfitting,
+and (4) overlapping max-pooling filters.&lt;/p&gt;
+&lt;h2 id=&#34;vgg-16-2014&#34;&gt;VGG-16 (2014)
+&lt;/h2&gt;&lt;p&gt;VGG-16 introduced by Simonyan and Zisserman in 2015
+comprises another important step in the evolution of deep learning models[4].
+Compared to AlexNet,
+the size of the model increases
+from around 60 million to around 138 million trainable parameters,
+while the depth of the model increases
+from 12 layers to 16 layers.
+Another important difference
+is that VGG-16 uses the same filter in all layers&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;,
+this simplifies the model architecture,
+while some related architectural tricks
+help decrease the number of parameters.
+Overall though the architecture of the VGG-16 is similar to that of AlexNet.&lt;/p&gt;
+&lt;p&gt;The main contribution of VGG-16 consists
+in showing that increased model depth(more layers)
+is a viable path towards increased model accuracy.
+Additionally, its uniform and simplified architecture
+was later used as the basis for many deep learning models
+and the pre-trained model
+was used as the backbone of many computer vision tasks.&lt;/p&gt;
+&lt;h2 id=&#34;resnet-2015&#34;&gt;ResNet (2015)
+&lt;/h2&gt;&lt;p&gt;VGG-16 demonstrated the effectiveness of training increasingly deeper networks.
+However, as the depth of the networks increased,
+researchers and practitioners encountered a new challenge:
+vanishing and exploding gradients.
+This is a problem related to how backpropagation operates.
+As the name suggests, backpropagation,
+attempts to &amp;ldquo;propagate&amp;rdquo; the error made in the output layer
+back through all the involved layers,
+estimate each layer&amp;rsquo;s &amp;ldquo;contribution&amp;rdquo; to the error,
+and adjust the respective parameters accordingly.
+This process for very deep networks is rather challenging
+and often results in overestimation or underestimation
+of the contribution distant layers have in the error.&lt;/p&gt;
+&lt;p&gt;An elegant solution to the problem of vanishing and exploding gradients
+was introduced with ResNet[5].
+In a typical neural network,
+the information propagates through each layer until it reaches the output,
+which can cause the contributions of early layers to diminish significantly.
+In Resnet, the authors introduced skip connections (or shortcuts),
+which allow information from a layer
+to bypass some subsequent layers.
+These skip connections reduce the effective depth of calculations
+and increase the effectiveness of backpropagation in deeper networks.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;The improvements from one model to the next are mostly incremental
+and even VGG-16 bears many similarities to LeNet-5.
+Following this development arc of computer vision models
+one should naturally mention MobileNet[6] and EfficientNet[7],
+which emphasize efficiency and scalability in convolutional networks.
+After that however, there is a clear paradigm shift
+with the introduction of Vision Transformers (ViTs),
+which replace convolution operations with attention mechanisms.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References
+&lt;/h2&gt;&lt;p&gt;[1] F. Rosenblatt, &amp;ldquo;The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain,&amp;rdquo; &lt;em&gt;Psychological Review&lt;/em&gt;, vol. 65, no. 6, pp. 386–408, 1958. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1037/h0042519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DOI: 10.1037/h0042519&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, &amp;ldquo;Gradient-based learning applied to document recognition,&amp;rdquo; &lt;em&gt;Proceedings of the IEEE&lt;/em&gt;, vol. 86, no. 11, pp. 2278–2324, 1998. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1109/5.726791&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DOI: 10.1109/5.726791&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] A. Krizhevsky, I. Sutskever, and G. E. Hinton, &amp;ldquo;ImageNet Classification with Deep Convolutional Neural Networks,&amp;rdquo; &lt;em&gt;Advances in Neural Information Processing Systems (NeurIPS)&lt;/em&gt;, 2012. &lt;a class=&#34;link&#34; href=&#34;https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PDF&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] K. Simonyan and A. Zisserman, &amp;ldquo;Very Deep Convolutional Networks for Large-Scale Image Recognition,&amp;rdquo; arXiv preprint arXiv:1409.1556, 2014. &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/1409.1556&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;arXiv:1409.1556&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[5] K. He, X. Zhang, S. Ren, and J. Sun, &amp;ldquo;Deep Residual Learning for Image Recognition,&amp;rdquo; &lt;em&gt;Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)&lt;/em&gt;, 2016. &lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1109/CVPR.2016.90&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DOI: 10.1109/CVPR.2016.90&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[6] A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, &amp;ldquo;MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications,&amp;rdquo; arXiv preprint arXiv:1704.04861, 2017. &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/1704.04861&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;arXiv:1704.04861&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[7] M. Tan and Q. V. Le, &amp;ldquo;EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks,&amp;rdquo; &lt;em&gt;Proceedings of the International Conference on Machine Learning (ICML)&lt;/em&gt;, 2019. &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/1905.11946&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;arXiv:1905.11946&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;LeNet-5 is used to classify handwritten digits between 0 and 9.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;The jump in the scale of the model is impressive.
+The input size increases from 32x32 black and white images to
+227x227 color images,
+thus from 1024 data points per example to 154.587 data points per example.
+The number of trainable parameters climbs from 60 thousand to 60 million.
+The number of layers increases from 7 to 12
+and the network classifies the images between a 1000 categories instead of 10.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;AlexNet uses convolutional filters of varying size and stride, their size for example ranges from 3x3 to 11x11. VGG-16 uses only 3x3 convolutional filters with same padding and stride of 1. It often uses many of those in a row if necessary. The latter trick reduces the number of necessary model parameters.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
         </item>
         
     </channel>
